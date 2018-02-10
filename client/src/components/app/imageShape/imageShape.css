@@ -1,0 +1,13 @@
+.imageShape {
+  width: 200px;
+  height: 200px;
+  border-radius: 1000px;
+  font-size: 20px;
+  color: white;
+  line-height: 100px;
+  text-align: center;
+  border: 5px solid #fff;
+  margin-left: 140px;
+  /*  position: absolute;*/
+}
+

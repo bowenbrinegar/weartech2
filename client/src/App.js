@@ -1,21 +1,28 @@
-import React, { Component } from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React, { Component } from "react";
+import Nav from "./components/nav/nav";
+import { Home, Team, App, Contact, Populate } from "./pages";
+import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import "./app.css";
 
-class App extends Component {
+class Website extends Component {
   render() {
     return (
-      <div className="App">
-        <div className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <h2>Welcome to React</h2>
+      <Router>
+        <div>
+          <Nav />
+          <div>
+            <Switch>
+              <Route exact path="/populate" component={Populate} />
+              <Route exact path="/home" component={Home} />
+              <Route exact path="/team" component={Team} />
+              <Route exact path="/app" component={App} />
+              <Route exact path="/contact" component={Contact} />
+            </Switch>
+          </div>
         </div>
-        <p className="App-intro">
-          To get started, edit <code>src/App.js</code> and save to reload.
-        </p>
-      </div>
+      </Router>
     );
   }
 }
 
-export default App;
+export default Website;

@@ -1,0 +1,6 @@
+.jumbotron {
+  text-align: center;
+  height: 400px;
+  color: white;
+  background-image: url("../carousel/photo_1.jpeg");
+}

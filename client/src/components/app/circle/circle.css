@@ -1,0 +1,18 @@
+.circle {
+  width: 200px;
+  height: 200px;
+  border-radius: 1000px;
+  font-size: 20px;
+  color: white;
+  line-height: 100px;
+  text-align: center;
+  background: #3366ff;
+  margin-left: 150px;
+  margin-bottom: 75px;
+  /*  position: absolute;*/
+}
+
+.content {
+  vertical-align: middle;
+  /*  position: relative;*/
+}

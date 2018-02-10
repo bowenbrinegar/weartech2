@@ -1,0 +1,12 @@
+#carouselContainer {
+  text-align: center;
+}
+
+.thumbs-wrapper {
+  display: none;
+}
+
+.carousel-slider {
+  height: 400px;
+  margin-top: 25px;
+}

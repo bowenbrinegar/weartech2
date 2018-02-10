@@ -1,0 +1,16 @@
+.jumbotron {
+  text-align: center;
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+#founder {
+  background-image: url("./vision.jpg");
+  color: #3366ff;
+  height: 600px;
+}
+
+#main {
+  background-image: url("./chip_header.jpg");
+  height: 800px;
+}

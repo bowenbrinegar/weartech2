@@ -1,0 +1,15 @@
+* {
+  margin: 0;
+}
+
+#teamContainer {
+  position: relative;
+  background: rgba(255, 255, 255, 0.8);
+  margin: 10px;
+  width: -webkit-calc(100% - 20px);
+  width: -moz-calc(100% - 20px);
+  width: calc(100% - 20px);
+  height: -webkit-calc(100% - 20px);
+  height: -moz-calc(100% - 20px);
+  height: calc(100% - 20px);
+}
