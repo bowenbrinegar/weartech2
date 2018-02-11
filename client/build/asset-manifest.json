@@ -1,14 +1,14 @@
 {
   "main.css": "static/css/main.7bb3f43d.css",
   "main.css.map": "static/css/main.7bb3f43d.css.map",
-  "main.js": "static/js/main.3edf5807.js",
-  "main.js.map": "static/js/main.3edf5807.js.map",
-  "static/media/chip_header.jpg": "static/media/chip_header.0e061aef.jpg",
-  "static/media/meet.jpeg": "static/media/meet.3b6f6970.jpeg",
-  "static/media/network.jpeg": "static/media/network.48eb806d.jpeg",
-  "static/media/photo_1.jpeg": "static/media/photo_1.11caa4f1.jpeg",
-  "static/media/photo_2.jpeg": "static/media/photo_2.e6888e39.jpeg",
-  "static/media/photo_3.jpeg": "static/media/photo_3.aaf38724.jpeg",
-  "static/media/tech.jpeg": "static/media/tech.06c2b925.jpeg",
-  "static/media/vision.jpg": "static/media/vision.623d385f.jpg"
+  "main.js": "static/js/main.f37a20b6.js",
+  "main.js.map": "static/js/main.f37a20b6.js.map",
+  "static\\media\\chip_header.jpg": "static/media/chip_header.0e061aef.jpg",
+  "static\\media\\meet.jpeg": "static/media/meet.3b6f6970.jpeg",
+  "static\\media\\network.jpeg": "static/media/network.48eb806d.jpeg",
+  "static\\media\\photo_1.jpeg": "static/media/photo_1.11caa4f1.jpeg",
+  "static\\media\\photo_2.jpeg": "static/media/photo_2.e6888e39.jpeg",
+  "static\\media\\photo_3.jpeg": "static/media/photo_3.aaf38724.jpeg",
+  "static\\media\\tech.jpeg": "static/media/tech.06c2b925.jpeg",
+  "static\\media\\vision.jpg": "static/media/vision.623d385f.jpg"
 }

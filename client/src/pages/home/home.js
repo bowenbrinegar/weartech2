@@ -31,38 +31,40 @@ class Home extends Component {
             </Col>
           </Row>
           <Row>
-            <Col size="md-4">
-              <ScrollAnimation animateIn="fadeIn" animateOnce={true}>
-                <Circle>
-                  <p>Hardware</p>
-                  <MdPhoneIphone size={60} />
-                </Circle>
-              </ScrollAnimation>
-            </Col>
-            <Col size="md-4">
-              <ScrollAnimation
-                animateIn="fadeIn"
-                delay={1000}
-                animateOnce={true}
-              >
-                <Circle>
-                  <p>Software</p>
-                  <MdCode size={60} />
-                </Circle>
-              </ScrollAnimation>
-            </Col>
-            <Col size="md-4">
-              <ScrollAnimation
-                animateIn="fadeIn"
-                delay={2000}
-                animateOnce={true}
-              >
-                <Circle>
-                  <p>Data Science</p>
-                  <MdBlurOn size={60} />
-                </Circle>
-              </ScrollAnimation>
-            </Col>
+            <div id="circleContainer">
+              <Col size="md-4">
+                <ScrollAnimation animateIn="fadeIn" animateOnce={true}>
+                  <Circle>
+                    <p>Hardware</p>
+                    <MdPhoneIphone size={60} />
+                  </Circle>
+                </ScrollAnimation>
+              </Col>
+              <Col size="md-4">
+                <ScrollAnimation
+                  animateIn="fadeIn"
+                  delay={1000}
+                  animateOnce={true}
+                >
+                  <Circle>
+                    <p>Software</p>
+                    <MdCode size={60} />
+                  </Circle>
+                </ScrollAnimation>
+              </Col>
+              <Col size="md-4">
+                <ScrollAnimation
+                  animateIn="fadeIn"
+                  delay={2000}
+                  animateOnce={true}
+                >
+                  <Circle>
+                    <p>Data Science</p>
+                    <MdBlurOn size={60} />
+                  </Circle>
+                </ScrollAnimation>
+              </Col>
+            </div>
           </Row>
           <Row>
             <Col size="md-12">
@@ -94,11 +96,6 @@ class Home extends Component {
                 </ImageShape>
               </ContentBox3>
             </Col>
-          </Row>
-          <Row>
-            <div>
-              <BarChart />
-            </div>
           </Row>
         </div>
       </div>
