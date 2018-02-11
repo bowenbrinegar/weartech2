@@ -2,9 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="10235634-288f-4d5a-b471-d18e257d0a68" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/client/src/components/app/linechart/index.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/client/src/components/app/linechart/linechart.js" />
       <change beforePath="" afterPath="$PROJECT_DIR$/routes/fs/index.js" />
       <change beforePath="" afterPath="$PROJECT_DIR$/routes/fs/tempAPI.js" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
@@ -361,7 +358,7 @@
       <workItem from="1518296759723" duration="1119000" />
       <workItem from="1518307988533" duration="10000" />
       <workItem from="1518370938116" duration="9696000" />
-      <workItem from="1518387546637" duration="1689000" />
+      <workItem from="1518387546637" duration="1712000" />
     </task>
     <task id="LOCAL-00001" summary="d3 line component in dev">
       <created>1518391658931</created>
@@ -370,11 +367,18 @@
       <option name="project" value="LOCAL" />
       <updated>1518391658931</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="chartjs component in dev">
+      <created>1518391682062</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1518391682062</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12553000" />
+    <option name="totallyTimeSpent" value="12576000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="126" y="82" width="1246" height="814" extended-state="0" />
@@ -448,7 +452,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="d3 line component in dev" />
-    <option name="LAST_COMMIT_MESSAGE" value="d3 line component in dev" />
+    <MESSAGE value="chartjs component in dev" />
+    <option name="LAST_COMMIT_MESSAGE" value="chartjs component in dev" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -561,6 +566,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="24">
           <caret line="1" column="13" lean-forward="false" selection-start-line="1" selection-start-column="13" selection-end-line="1" selection-end-column="13" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -568,6 +574,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="39" lean-forward="false" selection-start-line="0" selection-start-column="39" selection-end-line="0" selection-end-column="39" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -598,6 +605,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
           <caret line="26" column="24" lean-forward="false" selection-start-line="26" selection-start-column="24" selection-end-line="26" selection-end-column="24" />
+          <folding />
         </state>
       </provider>
     </entry>
