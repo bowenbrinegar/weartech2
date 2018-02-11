@@ -2,7 +2,6 @@ import React, { Component } from "react";
 import Nav from "./components/nav/nav";
 import { Home, Team, App, Contact, Populate } from "./pages";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
-import Footer from "./components/app/footer/footer";
 import "./app.css";
 
 class Website extends Component {
@@ -20,7 +19,6 @@ class Website extends Component {
               <Route exact path="/contact" component={Contact} />
             </Switch>
           </div>
-          <Footer />
         </div>
       </Router>
     );

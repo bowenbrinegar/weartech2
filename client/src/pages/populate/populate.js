@@ -4,6 +4,7 @@ import Moment from "moment";
 import Input from "../../components/app/list/search/input";
 import DatePicker from "react-datepicker";
 import "react-datepicker/dist/react-datepicker.css";
+import { BootstrapTable, TableHeaderColumn } from "react-bootstrap-table";
 
 let connection = Math.floor(Math.random() * (10 - 6)) + 6;
 let sitTime = Math.floor(Math.random() * (480 - 30)) + 30;
@@ -13,7 +14,7 @@ let compressionAmount = Math.floor(Math.random() * (10 - 6)) + 6;
 let springRate = Math.floor(Math.random() * (10 - 6)) + 6;
 let distance = Math.floor(Math.random() * (5 - 1)) + 1;
 let steps = Math.floor(Math.random() * (10000 - 1000)) + 1000;
-let date = Moment().subtract(Math.floor(Math.random() * (200 - 1)) + 1, 'days');
+let date = Moment().subtract(Math.floor(Math.random() * (200 - 1)) + 1, "days");
 let num = Math.floor(Math.random() * (100 - 40)) + 40;
 
 const refresh = () => {
@@ -25,19 +26,20 @@ const refresh = () => {
   springRate = Math.floor(Math.random() * (10 - 6)) + 6;
   distance = Math.floor(Math.random() * (5 - 1)) + 1;
   steps = Math.floor(Math.random() * (10000 - 1000)) + 1000;
-  date = Moment().subtract(Math.floor(Math.random() * (200 - 1)) + 1, 'days');
+  date = Moment().subtract(Math.floor(Math.random() * (200 - 1)) + 1, "days");
   num = Math.floor(Math.random() * (100 - 40)) + 40;
 };
 
 class Populate extends Component {
   state = {
-    institutionName: '',
-    institutionId: '',
-    size: '',
-    cushionSensor: '',
-    bedSensor: '',
-    shoeSensor: '',
-    date: Moment()
+    institutionName: "",
+    institutionId: "",
+    size: "",
+    cushionSensor: "",
+    bedSensor: "",
+    shoeSensor: "",
+    date: Moment(),
+    data: []
   };
 
   clear = () => {
@@ -60,10 +62,11 @@ class Populate extends Component {
       createAt: Moment(),
       updatedAt: Moment(),
       institution: this.state.institutionId
-    }).then(res => {
-      this.setState({ cushionSensor: res.data._id})
     })
-      .catch(err => console.log(err))
+      .then(res => {
+        this.setState({ cushionSensor: res.data._id });
+      })
+      .catch(err => console.log(err));
   };
 
   addBed = () => {
@@ -71,10 +74,11 @@ class Populate extends Component {
       createAt: Moment(),
       updatedAt: Moment(),
       institution: this.state.institutionId
-    }).then(res => {
-      this.setState({ bedSensor: res.data._id})
     })
-      .catch(err => console.log(err))
+      .then(res => {
+        this.setState({ bedSensor: res.data._id });
+      })
+      .catch(err => console.log(err));
   };
 
   addShoe = () => {
@@ -82,14 +86,15 @@ class Populate extends Component {
       createAt: Moment(),
       updatedAt: Moment(),
       institution: this.state.institutionId
-    }).then(res => {
-      this.setState({ shoeSensor: res.data._id})
     })
-      .catch(err => console.log(err))
+      .then(res => {
+        this.setState({ shoeSensor: res.data._id });
+      })
+      .catch(err => console.log(err));
   };
 
   addCushionData = () => {
-    refresh()
+    refresh();
     for (let i = 0; i < num; i++) {
       refresh();
       DB.createCushionData({
@@ -99,12 +104,14 @@ class Populate extends Component {
         pressure: pressure,
         createAt: date,
         sensor: this.state.cushionSensor
-      }).then(res => {console.log(res)})
+      }).then(res => {
+        console.log(res);
+      });
     }
   };
 
   addBedData = () => {
-    refresh()
+    refresh();
     for (let i = 0; i < num; i++) {
       refresh();
       DB.createBedData({
@@ -115,12 +122,14 @@ class Populate extends Component {
         springRate: springRate,
         createAt: date,
         sensor: this.state.bedSensor
-      }).then(res => {console.log(res)})
+      }).then(res => {
+        console.log(res);
+      });
     }
   };
 
   addShoeData = () => {
-    refresh()
+    refresh();
     for (let i = 0; i < num; i++) {
       refresh();
       DB.createShoeData({
@@ -131,35 +140,44 @@ class Populate extends Component {
         distance: distance,
         createAt: date,
         sensor: this.state.shoeSensor
-      }).then(res => {console.log(res)})
+      }).then(res => {
+        console.log(res);
+      });
     }
   };
 
   findAllInstitutions = () => {
     DB.getInstitutions()
-      .then(res => console.log(res))
+      .then(res => {
+        console.log(res);
+
+        return res;
+      })
+      .then(sortedData => {
+        this.setState({ data: sortedData.data });
+      })
       .catch(err => console.log(err));
   };
 
   findAllCushionData = () => {
     DB.getCushionData()
       .then(res => console.log(res))
-      .catch(err => console.log(err))
+      .catch(err => console.log(err));
   };
 
   findAllBedData = () => {
     DB.getBedData()
       .then(res => console.log(res))
-      .catch(err => console.log(err))
+      .catch(err => console.log(err));
   };
 
   findAllShoeData = () => {
     DB.getShoeData()
       .then(res => console.log(res))
-      .catch(err => console.log(err))
+      .catch(err => console.log(err));
   };
 
-  handleInputChange = (event) => {
+  handleInputChange = event => {
     const { name, value } = event.target;
     this.setState({ [name]: value });
   };
@@ -192,24 +210,64 @@ class Populate extends Component {
           onChange={this.handleInputChange}
           name="size"
         />
-
-        <button onClick={this.addInstitution} id="buttonPop">Add Institution</button>
-
-        <h1 style={{color: 'white'}}>Add Sensors</h1>
-        <button onClick={this.addCushion} id="buttonPop">Add Cushion Sensor</button>
-        <button onClick={this.addBed} id="buttonPop">Add Bed Sensor</button>
-        <button onClick={this.addShoe} id="buttonPop">Add Shoe Sensor</button>
-
-        <h1 style={{color: 'white'}}>Add Data</h1>
-        <button onClick={this.addCushionData} id="buttonPop">Add Cushion Data</button>
-        <button onClick={this.addBedData} id="buttonPop">Add Bed Data</button>
-        <button onClick={this.addShoeData} id="buttonPop">Add Shoe Data</button>
-
-        <h1 style={{color: 'white'}}>Find All</h1>
-        <button onClick={this.findAllInstitutions} id="buttonPop">Find all institutions</button>
-        <button onClick={this.findAllCushionData} id="buttonPop">Find all CushionData</button>
-        <button onClick={this.findAllBedData} id="buttonPop">Find all BedData</button>
-        <button onClick={this.findAllShoeData} id="buttonPop">Find all ShoeData</button>
+        <button onClick={this.addInstitution} id="buttonPop">
+          Add Institution
+        </button>
+        <h1 style={{ color: "white" }}>Add Sensors</h1>
+        <button onClick={this.addCushion} id="buttonPop">
+          Add Cushion Sensor
+        </button>
+        <button onClick={this.addBed} id="buttonPop">
+          Add Bed Sensor
+        </button>
+        <button onClick={this.addShoe} id="buttonPop">
+          Add Shoe Sensor
+        </button>
+        <h1 style={{ color: "white" }}>Add Data</h1>
+        <button onClick={this.addCushionData} id="buttonPop">
+          Add Cushion Data
+        </button>
+        <button onClick={this.addBedData} id="buttonPop">
+          Add Bed Data
+        </button>
+        <button onClick={this.addShoeData} id="buttonPop">
+          Add Shoe Data
+        </button>
+        <h1 style={{ color: "white" }}>Find All</h1>
+        <button onClick={this.findAllInstitutions} id="buttonPop">
+          Find all institutions
+        </button>
+        <button onClick={this.findAllCushionData} id="buttonPop">
+          Find all CushionData
+        </button>
+        <button onClick={this.findAllBedData} id="buttonPop">
+          Find all BedData
+        </button>
+        <button onClick={this.findAllShoeData} id="buttonPop">
+          Find all ShoeData
+        </button>
+        <div>
+          <BootstrapTable data={this.state.data} striped={true} hover={true}>
+            <TableHeaderColumn dataField="_id" isKey={true} dataSort={true}>
+              Institution ID
+            </TableHeaderColumn>
+            <TableHeaderColumn dataField="institution" dataSort={true}>
+              Name
+            </TableHeaderColumn>
+            <TableHeaderColumn dataField="size" dataSort={true}>
+              Number of Employees
+            </TableHeaderColumn>
+            <TableHeaderColumn dataField="bed.length" dataSort={true}>
+              Total Bed Sensors
+            </TableHeaderColumn>
+            <TableHeaderColumn dataField="shoe.length" dataSort={true}>
+              Total Shoe Sensors
+            </TableHeaderColumn>
+            <TableHeaderColumn dataField="cushion.length" dataSort={true}>
+              Total Cushion Sensors
+            </TableHeaderColumn>
+          </BootstrapTable>
+        </div>
       </div>
     );
   }

@@ -19,7 +19,7 @@
   width: -webkit-calc(100% - 60px);
   width: -moz-calc(100% - 60px);
   width: calc(100% - 60px);
-  height: 1700px;
+  height: auto;
   background: rgba(0, 0, 0, 0.8);
   z-index: -10;
 }
@@ -34,6 +34,11 @@
   height: -webkit-calc(100% - 20px);
   height: -moz-calc(100% - 20px);
   height: calc(100% - 20px);
+}
+
+#circleContainer {
+  padding: 100px;
+  margin-bottom: 225px;
 }
 
 
