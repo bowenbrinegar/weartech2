@@ -12,6 +12,9 @@ router.route('/cushion')
   .get(dbController.findAllCushionSensor)
   .post(dbController.createCushion);
 
+router.route('/cushion/one')
+  .get(dbController.findOneCushionSensor);
+
 router.route('/shoe')
   .get(dbController.findAllShoeSensor)
   .post(dbController.createShoe);
