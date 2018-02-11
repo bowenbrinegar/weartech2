@@ -1,6 +1,8 @@
 const db = require("../models");
 const mongoose = require('mongoose')
 const Moment = require('moment')
+const json2csv = require('json2csv')
+const fs = require('fs');
 
 module.exports = {
   clear: function(req, res) {
@@ -22,19 +24,34 @@ module.exports = {
   findAllBedSensor: function(req, res) {
     db.BedSensor
       .find({})
+      .populate('data')
       .then(result => res.send(result))
       .catch(err => console.log(err))
   },
   findAllShoeSensor: function(req, res) {
     db.ShoeSensor
       .find({})
+      .populate('data')
       .then(result => res.send(result))
       .catch(err => console.log(err))
   },
   findAllCushionSensor: function(req, res) {
     db.CushionSensor
       .find({})
+      .populate('data')
       .then(result => res.send(result))
+      .catch(err => console.log(err))
+  },
+  findOneCushionSensor: function(req, res) {
+    db.CushionSensor
+      .find({})
+      .populate('data')
+      .then(result => {
+        fs.writeFile('cvsFiles/findFirstCushionSensor.json', result[0].data, function(err) {
+          if (err) throw err;
+          console.log('file saved');
+        });
+      })
       .catch(err => console.log(err))
   },
   createInstitution: function(req, res) {
