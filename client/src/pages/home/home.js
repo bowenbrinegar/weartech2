@@ -31,12 +31,14 @@ class Home extends Component {
               marketing at the most critical decision making time...when the
               product wears out.
             </p>
-            <Button
-              value="Demo App"
-              className="actions customFadeInUp btn-pill btn-pill-primary btn-pill-lg"
-            >
-              <Link to="/app">Demo App</Link>
-            </Button>
+            <Link to={`/app`}>
+              <Button
+                value="Demo App"
+                className="actions customFadeInUp btn-pill btn-pill-primary btn-pill-lg"
+              >
+                Demo App
+              </Button>
+            </Link>
           </JumbotronBusiness>
 
           <div className="spacial-features" data-scroll>
@@ -217,12 +219,12 @@ class Home extends Component {
               <div className="row">
                 <div className="col-md-3">
                   <h4>About</h4>
-                  <a href="#" className="legal">
+                  <Link to="/app" className="legal">
                     App
-                  </a>
-                  <a href="#" className="legal">
+                  </Link>
+                  <Link to="/team" className="legal">
                     Team
-                  </a>
+                  </Link>
                 </div>
                 <div className="col-md-3">
                   <h4>Address</h4>
