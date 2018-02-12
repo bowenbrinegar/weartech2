@@ -13,14 +13,14 @@ button:focus {
     width: -webkit-calc(100% - 60px);
     width: -moz-calc(100% - 60px);
     width: calc(100% - 60px);
-    height: 100%;
     background: rgba(0, 0, 0, 0.8);
     z-index: -10;
 }
 
 #appContainer {
     position: relative;
-    background: rgba(255, 255, 255, 0.8);
+    /*background: rgba(255, 255, 255, 0.8);*/
+    background: #fff;
     margin: 10px;
     width: -webkit-calc(100% - 20px);
     width: -moz-calc(100% - 20px);
@@ -94,7 +94,7 @@ button:focus {
     -ms-transform: translate(-50%, -50%);
     -o-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
-    background: rgba(0,0,0,.8);
+    background: rgba(0, 0, 0, 0.8);
     height: 100%;
     width: 100%;
     left: 50%;
@@ -108,10 +108,9 @@ button:focus {
     -ms-transform: translate(-50%, -50%);
     -o-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
-    background: rgba(0,0,0,.8);
+    background: rgba(0, 0, 0, 0.8);
     left: 50%;
     top: 50%;
     height: 100%;
     width: 100%;
 }
-

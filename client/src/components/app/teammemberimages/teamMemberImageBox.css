@@ -1,0 +1,43 @@
+.teamMember {
+  background-image: url("./parker.jpeg");
+  background-repeat: no-repeat;
+  background-size: 130%;
+  opacity: 0.8;
+  float: left;
+  margin-left: 75px;
+}
+
+.teamMember:hover {
+  opacity: 1;
+}
+
+/*.contentBox2 {
+  height: 400px;
+  background-image: url("./pexels-photo.jpg");
+  background-repeat: no-repeat;
+  background-size: 130%;
+  opacity: 0.8;
+  float: left;
+  margin-left: 75px;
+  width: 25%;
+}
+
+.contentBox2:hover {
+  opacity: 1;
+}
+
+.contentBox3 {
+  height: 400px;
+  background-image: url("./tech.jpeg");
+  background-repeat: no-repeat;
+  background-size: 130%;
+  opacity: 0.8;
+  float: left;
+  margin-left: 75px;
+  width: 25%;
+}
+
+.contentBox3:hover {
+  opacity: 1;
+}
+*/
