@@ -3,8 +3,6 @@ import "./overview.css"
 import BarChart from '../barchart/barchart';
 import DB from '../../../utils/DB'
 import LineChart from '../linechart/linechart';
-import csv from 'json2csv';
-import D3Line from '../d3Line/d3Line';
 
 
 const chart1 = {
@@ -101,7 +99,7 @@ const chart4Line = {
       data: [28, 48, 40, 19, 86, 27, 90],
     },
   ]
-}
+};
 
 
 class OverView extends Component {
@@ -170,7 +168,7 @@ class OverView extends Component {
         {/*{this.chart3 ? (<div id="chart3">*/}
           {/*<BarChart data={this.state.chart3}/>*/}
         {/*</div>) : (<h1 id="chart3">No Data</h1>)}*/}
-        <div id='chart4'><D3Line/></div>
+        <div id='chart4'></div>
       </div>
     )
   }
