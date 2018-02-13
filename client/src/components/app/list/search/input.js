@@ -11,9 +11,7 @@ class Input extends Component {
                name={this.props.name}/>
         <button id='searchButton'
                 onClick={this.props.onClick}
-        >
-          Search
-        </button>
+        ></button>
       </div>
     )
   }

@@ -11,19 +11,24 @@
 
 .searchInput {
     position: absolute;
-    -webkit-transform: translate(-50%,0);
-    -moz-transform: translate(-50%,0);
-    -ms-transform: translate(-50%,0);
-    -o-transform: translate(-50%,0);
-    transform: translate(-50%,0);
-    left: 50%;
+    left: 10px;
     top: 5px;
     border-radius: 5px;
     border: none;
     height: 20px;
-    width: 90%;
+    width: 70%;
     padding-left: 5px;
 }
 #searchButton {
+    position: absolute;
     background: red;
+    height: 20px;
+    width: 10px;
+    right: 10px;
+    border-radius: 5px;
+    top: 5px;
+}
+
+#searchButton:hover {
+    background: blue;
 }
