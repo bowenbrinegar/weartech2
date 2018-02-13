@@ -1,9 +1,13 @@
 import React from "react";
 import "./footer.css";
 
-const Footer = ({ children }) => <div className="footer">{children}</div>;
+function Footer({ children }) {
+  return (
+    <div>
+      <div id="phantom" />
+      <div id="style">{children}</div>
+    </div>
+  );
+}
 
 export default Footer;
-
-
-
