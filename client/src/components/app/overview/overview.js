@@ -2,8 +2,6 @@ import React, { Component } from 'react'
 import "./overview.css"
 import BarChart from '../barchart/barchart';
 import DB from '../../../utils/DB'
-import LineChart from '../linechart/linechart';
-
 
 const chart1 = {
   labels: ["Cushion", "Shoe", "Bed"],
@@ -17,17 +15,9 @@ const chart1 = {
       hoverBorderColor: "rgba(255,99,132,1)",
       data: [4,8,9]
     }
-  ],
-  options: {
-    scales: {
-      yAxes: [{
-        ticks: {
-          beginAtZero:true
-        }
-      }]
-    }
-  }
+  ]
 };
+
 
 const chart2 = {
   labels: ["Institutions"],
@@ -41,16 +31,7 @@ const chart2 = {
       hoverBorderColor: "rgba(255,99,132,1)",
       data: [1,2,3]
     }
-  ],
-  options: {
-    scales: {
-      yAxes: [{
-        ticks: {
-          beginAtZero:true
-        }
-      }]
-    }
-  }
+  ]
 };
 
 const chart3 = {
@@ -65,16 +46,7 @@ const chart3 = {
       hoverBorderColor: "rgba(255,99,132,1)",
       data: [2,1,3]
     }
-  ],
-  options: {
-    scales: {
-      yAxes: [{
-        ticks: {
-          beginAtZero:true
-        }
-      }]
-    }
-  }
+  ]
 };
 
 const chart4Line = {
@@ -108,20 +80,44 @@ class OverView extends Component {
     chart1: {},
     chart2: {},
     chart3: {},
-    chart4: {}
+    chart4: {},
+    options: {
+      responsive: true,
+      scales: {
+        yAxes: [{
+          ticks: {
+            beginAtZero:true
+          }
+        }]
+      },
+      size: {
+        height: 800,
+        width: 1600
+      }
+    }
   };
-
 
   chart1 = () => {
     let arr = [];
-    DB.getBeds()
-      .then(res => arr.push(res.data.length));
-    DB.getShoes()
-      .then(res => arr.push(res.data.length));
-    DB.getCushions()
-      .then(res => arr.push(res.data.length));
-    chart1.datasets[0].data = arr
-    this.setState({chart1: chart1})
+    if (this.props.institution !== '') {
+      DB.getInstitutionByID(this.props.institution)
+        .then(res => {
+          arr[0] = res.data[0].bed.length;
+          arr[1] = res.data[0].cushion.length;
+          arr[2] = res.data[0].shoe.length;
+        });
+      chart1.datasets[0].data = arr;
+      setTimeout(() => {
+        this.setState({chart1: chart1})
+      }, 1000)
+    } else {
+      DB.getShoes().then(res => arr[0] = res.data.length);
+      DB.getCushions().then(res => arr[1] = res.data.length);
+      DB.getShoes().then(res => arr[2] = res.data.length);
+      setTimeout(() => {
+        this.setState({chart1: chart1})
+      }, 1000)
+    }
   };
 
   chart2 = () => {
@@ -130,38 +126,47 @@ class OverView extends Component {
     this.setState({chart2: chart2})
   };
 
-  chart3 = () => {
-    let arr = [];
-    DB.getCushionData()
-      .then(res => arr.push(res.data.length));
-    DB.getBedData()
-      .then(res => arr.push(res.data.length));
-    DB.getShoeData()
-      .then(res => arr.push(res.data.length));
-    chart3.datasets[0].data = arr
-    this.setState({chart3: chart3})
-  };
+  // chart3 = () => {
+  //   let arr = [];
+  //   DB.getCushionData()
+  //     .then(res => arr.push(res.data.length));
+  //   DB.getBedData()
+  //     .then(res => arr.push(res.data.length));
+  //   DB.getShoeData()
+  //     .then(res => arr.push(res.data.length));
+  //   chart3.datasets[0].data = arr
+  //   this.setState({chart3: chart3})
+  // };
+  //
+  // chart4 = () => {
+  //   this.setState({chart4: chart4Line})
+  // }
 
-  chart4 = () => {
-    this.setState({chart4: chart4Line})
+  loadCharts = () => {
+    this.chart1();
+    // this.chart2();
+    // this.chart3();
+    // this.chart4();
   }
 
-
-  componentDidMount() {
-    this.chart1();
-    this.chart2();
-    this.chart3();
-    this.chart4();
+  componentWillMount() {
+    this.loadCharts()
   }
 
   render() {
     if (!this.props.show) { return null; }
-
     return (
       <div className={this.props.container}>
-        {this.chart1 !== {} ? (<div id="chart1">
-          <BarChart data={this.state.chart1}/>
-        </div>) : (<h1 id="chart1">No Data</h1>)}
+        <div id="chart1">
+          <BarChart data={this.state.chart1}
+                    options={this.state.options}
+          />
+        </div>
+        <div id="chart2">
+          <BarChart data={this.state.chart1}
+                    options={this.state.options}
+          />
+        </div>
         {/*{this.chart2 ? (<div id="chart2">*/}
           {/*<BarChart data={this.state.chart2}/>*/}
         {/*</div>) : (<h1 id="chart2">No Data</h1>)}*/}

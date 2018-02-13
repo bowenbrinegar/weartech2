@@ -2,30 +2,15 @@
     position: absolute;
     left: 0;
     top: 0;
-    height: 50%;
     width: 50%;
+    height: 50%;
 }
 
 #chart2 {
     position: absolute;
     right: 0;
     top: 0;
-    height: 50%;
     width: 50%;
-}
+    height: 50%;
 
-#chart3 {
-    position: absolute;
-    left: 0;
-    bottom: 0;
-    height: 50%;
-    width: 50%;
-}
-
-#chart4 {
-    position: absolute;
-    right: 0;
-    bottom: 0;
-    height: 50%;
-    width: 50%;
 }

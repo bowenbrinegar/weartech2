@@ -16,9 +16,13 @@ class App extends Component {
   };
 
   handleInstitutionSelect = (event) => {
-    const id = event.target.getAttribute('dataId')
-    this.setState({institution: id})
-  }
+    const id = event.target.getAttribute('dataId');
+    this.setState({institution: id});
+    setTimeout(() => {
+      this.refs.child.loadCharts();
+    },100)
+
+  };
 
   toggleView = () => {
     if (this.state.inventoryShow) {
@@ -36,7 +40,6 @@ class App extends Component {
 
   toggleModal = event => {
     const { value } = event.target;
-
     if (value === "Add Sensor") {
       if (this.state.showSensor) {
         return;
@@ -109,6 +112,7 @@ class App extends Component {
                 container="overviewContainer"
                 show={this.state.overViewShow}
                 institution={this.state.institution}
+                ref="child"
               />
             </div>
           </div>
