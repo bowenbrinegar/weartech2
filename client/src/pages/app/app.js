@@ -21,7 +21,6 @@ class App extends Component {
     setTimeout(() => {
       this.refs.child.loadCharts();
     },100)
-
   };
 
   toggleView = () => {

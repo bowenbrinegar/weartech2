@@ -24,3 +24,6 @@
     width: 90%;
     padding-left: 5px;
 }
+#searchButton {
+    background: red;
+}

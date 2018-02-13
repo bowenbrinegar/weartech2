@@ -15,6 +15,11 @@ class List extends Component {
     this.setState({[name]: value})
   };
 
+  submitChange = () => {
+    DB.findAllInstitutionsByName(this.state.searchInput)
+      .then(res => this.setState({institutions: res.data}))
+  };
+
   componentDidMount() {
     DB.getInstitutions()
       .then(res => {
@@ -30,8 +35,9 @@ class List extends Component {
       <div id="list">
           <Search className="searchInput"
                   value={this.state.searchInput}
-                  onChange={this.handleChange}
+                  onChange={this.handleChange.bind(this)}
                   name="searchInput"
+                  onClick={this.submitChange.bind(this)}
           />
           <div id="institutionContainer">
             {this.state.institutions ? this.state.institutions.map(obj => {
