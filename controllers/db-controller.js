@@ -1,7 +1,4 @@
 const db = require("../models");
-const mongoose = require('mongoose')
-const Moment = require('moment')
-const json2csv = require('json2csv')
 const fs = require('fs');
 
 module.exports = {
@@ -35,7 +32,6 @@ module.exports = {
       .populate('bed')
       .then(result => {
         res.send(result)
-        console.log('working')
       })
       .catch(err => console.log(err))
   },

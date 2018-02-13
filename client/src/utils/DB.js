@@ -10,8 +10,8 @@ export default {
   findAllInstitutionsByName: function(name) {
   return axios.get("/api/db/institution/" + name)
   },
-  getInstitutionByID: function(name) {
-    return axios.get("/api/db/institution/" + name)
+  getInstitutionByID: function(id) {
+    return axios.get("/api/db/institution/" + id)
   },
   getOneCushion: function() {
     return axios.get('/api/db/cushion/one')

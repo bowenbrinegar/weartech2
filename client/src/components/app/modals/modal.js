@@ -8,7 +8,7 @@ class Modal extends Component {
   };
 
   addSensor = () => {
-    console.log('success')
+    console.log(this.props.institution)
   };
 
   addData = () => {

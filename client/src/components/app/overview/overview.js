@@ -127,9 +127,9 @@ class OverView extends Component {
     if (this.props.institution !== '') {
       DB.getInstitutionByID(this.props.institution)
         .then(res => {
-          arr[0] = res.data[0].bed.length;
-          arr[1] = res.data[0].cushion.length;
-          arr[2] = res.data[0].shoe.length;
+            // arr[0] = res.data[0].bed.length;
+            // arr[1] = res.data[0].cushion.length;
+            // arr[2] = res.data[0].shoe.length;
         });
       chart1.datasets[0].data = arr;
       setTimeout(() => {
