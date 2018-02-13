@@ -7,6 +7,9 @@ export default {
   getInstitutions: function() {
     return axios.get("/api/db/institution");
   },
+  findAllInstitutionsByName: function(name) {
+  return axios.get("/api/db/institution/" + name)
+  },
   getInstitutionByID: function(name) {
     return axios.get("/api/db/institution/" + name)
   },

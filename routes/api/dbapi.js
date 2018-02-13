@@ -8,6 +8,9 @@ router.route("/institution")
   .get(dbController.findAllInstitution)
   .post(dbController.createInstitution);
 
+router.route("/institution/:name")
+  .get(dbController.findAllInstitutionsByName)
+
 router.route("/institution/:institution")
   .get(dbController.findInstitutionByID)
 
