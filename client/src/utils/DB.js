@@ -1,12 +1,11 @@
-import axios from "axios";
-
+const axios = require("axios");
 
 export default {
   clear: function() {
-    return axios.get('/api/db/clear')
+    return axios.get("/api/db/clear");
   },
   getInstitutions: function() {
-    return axios.get("/api/db/institution")
+    return axios.get("/api/db/institution");
   },
   getInstitutionByID: function(name) {
     return axios.get("/api/db/institution/" + name)
@@ -24,42 +23,42 @@ export default {
     return axios.get('/api/db/bed/' + id)
   },
   getCushions: function() {
-    return axios.get('/api/db/cushion')
+    return axios.get("/api/db/cushion");
   },
   getShoes: function() {
-    return axios.get('/api/db/shoe')
+    return axios.get("/api/db/shoe");
   },
   getBeds: function() {
-    return axios.get('/api/db/bed')
+    return axios.get("/api/db/bed");
   },
   getCushionData: function() {
-    return axios.get('/api/db/data/cushion')
+    return axios.get("/api/db/data/cushion");
   },
   getShoeData: function() {
-    return axios.get('/api/db/data/shoe')
+    return axios.get("/api/db/data/shoe");
   },
   getBedData: function() {
-    return axios.get('/api/db/data/bed')
+    return axios.get("/api/db/data/bed");
   },
   createInstitution: function(data) {
-    return axios.post('/api/db/institution', data)
+    return axios.post("/api/db/institution", data);
   },
   createCushion: function(data) {
-    return axios.post('/api/db/cushion', data)
+    return axios.post("/api/db/cushion", data);
   },
   createShoe: function(data) {
-    return axios.post('/api/db/shoe', data)
+    return axios.post("/api/db/shoe", data);
   },
   createBed: function(data) {
-    return axios.post('/api/db/bed', data)
+    return axios.post("/api/db/bed", data);
   },
   createCushionData: function(data) {
-    return axios.post('/api/db/data/cushion', data)
+    return axios.post("/api/db/data/cushion", data);
   },
   createShoeData: function(data) {
-    return axios.post('/api/db/data/shoe', data)
+    return axios.post("/api/db/data/shoe", data);
   },
   createBedData: function(data) {
-    return axios.post('/api/db/data/bed', data)
+    return axios.post("/api/db/data/bed", data);
   }
-}
+};

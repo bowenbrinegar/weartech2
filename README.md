@@ -1,84 +1,38 @@
-# Create React Express App
+# WearTech
 
-## About This Boilerplate
+An industry leading idea on how to bring up to date data to the consumer and coporate hands.
 
-This setup allows for a Node/Express/React app which can be easily deployed to Heroku.
 
-The front-end React app will auto-reload as it's updated via webpack dev server, and the backend Express app will auto-reload independently with nodemon.
+### Application Technologies and Features
 
-## Starting the app locally
+ * React.js
+ * Bootstrap (Get Bootstrap Themes)
+ * Node.js
+ * Express
+ * MongoDB
+  
+ * Custom data population functions
+ * Moment.js (timestamping data)
+ * Email Response Integration
+ * Table Layout Library
+ * Parallax with ScrollMajic.io
+ * Chart.js and D3.js Integration
 
-Start by installing front and backend dependencies. While in this directory, run the following commands:
 
-```
-yarn install
-cd client
-yarn install
-cd ..
-``
+### Summary of Market Gap:
 
-After both installations complete, run the following command in your terminal:
+In a world of products, it is hard to narrow down what layer of the market to go after. Some products are better at the consumer level, while others are more advantageous at the industry level. We are going after the Healthcare industry and corporations that offers services to the public within that category.
 
-```
-yarn start
-```
+We have found that there have been problems related to wheelchair cushions and bed springs wearing out, only to be replaced years after their expiration. Our solution is to put $1 sensors into the products listed above that help communicate when assets need to be replaced, thus prevent any poor health outcomes related to expired and weared gear.
 
-That's it, your app should be running on <http://localhost:3000>. The Express server should intercept any AJAX requests from the client.
 
-## Deployment (Heroku)
+### Summary of Solution:
 
-### Create a Git Repo
+Our solution to these sensors is to create an interactive administrative portal to recognize changes in quality in real time, allowing organization to act responsively to the needs of their consumers. The application will feature abilities to add, replace, and inspect sensors within a given network. Give real time overview stats on an organization's outlook, and give insight into how other institutions are operating under the same system formation.
 
-Once you're ready to deploy, start by making sure your project is a git repository. If so, proceed to the next section, otherwise run the following commands in your terminal:
 
-```
-git init
-git add .
-git commit -m "Initial commit"
-```
+### Mission of Website:
 
-### Heroku
+The goal of the website is outreach, application, and transparency. We hope that our buyers and their buyers know what’s going on behind the scenes and how well issue response is regulated throughout our brands implementation. 
 
-Make sure that you have a Heroku app created for this project. If so, proceed to the next section, otherwise run the following command in your terminal:
-
-```
-heroku create
-```
-
-Optionally add an argument for your application's name after `create`, e.g.
-
-```
-heroku myawesomeapp
-```
-
-### Deploying
-
-#### Option 1
-
-Use the deploy script inside of the outer `package.json`
-
-After confirming that you have an up to date git repository and a Heroku app created, run the following command to deploy:
-
-```
-yarn deploy
-```
-
-If all previous steps were followed correctly, your application should be deployed to Heroku!
-
-#### Option 2
-
-Manually deploy 
-
-After confirming that you have an up to date git repository and a Heroku app created, complete the following:
-
-1. Build the React app for production by running the following command:
-
-```
-yarn build
-```
-
-2. Add and commit all changes to git
-
-3. Push to Heroku
-
-If all previous steps were followed correctly, your application should be deployed to Heroku!
+You’ll be able to contact us, learn more about us, learn more about the product; market gap and solution, and find locations where it is in use.
