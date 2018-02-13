@@ -29,12 +29,19 @@ class Team extends Component {
                 <div className="col-md-4">
                   <div className="member">
                     <div className="mask">
-                      <a href="#">
-                        <i className="fa fa-twitter" />
-                      </a>
-                      <a href="#">
+                      <Link
+                        to="https://www.linkedin.com/in/bowen-brinegar-6047ab67/"
+                        target="_blank"
+                      >
+                        <i className="fa fa-linkedin" />
+                      </Link>
+                      <Link
+                        to
+                        href="https://github.com/bowenbrinegar"
+                        target="_blank"
+                      >
                         <i className="fa fa-github" />
-                      </a>
+                      </Link>
                     </div>
                     <img src="images/uifaces/bowen.png" />
                   </div>
@@ -44,7 +51,7 @@ class Team extends Component {
                   <div className="member">
                     <div className="mask">
                       <a href="#">
-                        <i className="fa fa-twitter" />
+                        <i className="fa fa-linkedin" />
                       </a>
                       <a href="#">
                         <i className="fa fa-github" />
@@ -57,12 +64,15 @@ class Team extends Component {
                 <div className="col-md-4">
                   <div className="member">
                     <div className="mask">
-                      <a href="#">
-                        <i className="fa fa-twitter" />
-                      </a>
-                      <a href="#">
+                      <Link
+                        to="https://www.linkedin.com/in/parkerpreyer/"
+                        target="_blank"
+                      >
+                        <i className="fa fa-linkedin" />
+                      </Link>
+                      <Link to="https://github.com/ppreyer" target="_blank">
                         <i className="fa fa-github" />
-                      </a>
+                      </Link>
                     </div>
                     <img src="images/uifaces/parker.png" />
                   </div>
@@ -82,7 +92,7 @@ class Team extends Component {
               <p>
                 Have a new product use case? We'd love <br /> to help turn it
                 into reality.
-                <a href="agency-contact.html"> Get in touch</a>
+                <Link to="/contact"> Get in touch</Link>
               </p>
             </div>
           </div>
@@ -96,12 +106,12 @@ class Team extends Component {
               <div className="row">
                 <div className="col-md-3">
                   <h4>About</h4>
-                  <a href="#" className="legal">
+                  <Link to="/app" className="legal">
                     App
-                  </a>
-                  <a href="#" className="legal">
+                  </Link>
+                  <Link to="/team" className="legal">
                     Team
-                  </a>
+                  </Link>
                 </div>
                 <div className="col-md-3">
                   <h4>Address</h4>
@@ -115,15 +125,15 @@ class Team extends Component {
                 </div>
                 <div className="col-md-3">
                   <h4>Social</h4>
-                  <a href="#" className="social first">
+                  <Link to="#" className="social first">
                     <i className="fa fa-facebook" />
-                  </a>
-                  <a href="#" className="social">
+                  </Link>
+                  <Link to="#" className="social">
                     <i className="fa fa-twitter" />
-                  </a>
-                  <a href="#" className="social">
+                  </Link>
+                  <Link to="#" className="social">
                     <i className="fa fa-github" />
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>

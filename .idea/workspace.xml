@@ -2,14 +2,527 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="10235634-288f-4d5a-b471-d18e257d0a68" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/client/build/dist/ecommerce.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/client/build/dist/ecommerce.css.map" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/client/build/dist/ecommerce.min.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/client/build/dist/ecommerce.min.css.map" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/client/build/dist/fonts/FontAwesome.otf" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/client/build/dist/fonts/entypo.eot" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/client/build/dist/fonts/entypo.svg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/client/build/dist/fonts/entypo.ttf" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/client/build/dist/fonts/entypo.woff" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/client/build/dist/fonts/et-line.eot" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/client/build/dist/fonts/et-line.svg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/client/build/dist/fonts/et-line.ttf" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/client/build/dist/fonts/et-line.woff" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/client/build/dist/fonts/fontawesome-webfont.eot" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/client/build/dist/fonts/fontawesome-webfont.svg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/client/build/dist/fonts/fontawesome-webfont.ttf" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/client/build/dist/fonts/fontawesome-webfont.woff" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/client/build/dist/fonts/fontawesome-webfont.woff2" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/client/build/dist/fonts/glyphicons-halflings-regular.eot" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/client/build/dist/fonts/glyphicons-halflings-regular.svg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/client/build/dist/fonts/glyphicons-halflings-regular.ttf" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/client/build/dist/fonts/glyphicons-halflings-regular.woff" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/client/build/dist/fonts/glyphicons-halflings-regular.woff2" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/client/build/dist/fonts/ionicons.eot" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/client/build/dist/fonts/ionicons.svg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/client/build/dist/fonts/ionicons.ttf" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/client/build/dist/fonts/ionicons.woff" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/client/build/dist/theme.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/client/build/dist/theme.css.map" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/client/build/dist/theme.min.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/client/build/dist/theme.min.css.map" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/client/build/dist/theme.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/client/build/dist/theme.min.js.map" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/client/build/favicon.ico" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/client/build/fonts/FontAwesome.otf" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/client/build/fonts/entypo.eot" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/client/build/fonts/entypo.svg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/client/build/fonts/entypo.ttf" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/client/build/fonts/entypo.woff" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/client/build/fonts/et-line.eot" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/client/build/fonts/et-line.svg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/client/build/fonts/et-line.ttf" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/client/build/fonts/et-line.woff" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/client/build/fonts/fontawesome-webfont.eot" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/client/build/fonts/fontawesome-webfont.svg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/client/build/fonts/fontawesome-webfont.ttf" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/client/build/fonts/fontawesome-webfont.woff" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/client/build/fonts/fontawesome-webfont.woff2" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/client/build/fonts/glyphicons-halflings-regular.eot" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/client/build/fonts/glyphicons-halflings-regular.svg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/client/build/fonts/glyphicons-halflings-regular.ttf" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/client/build/fonts/glyphicons-halflings-regular.woff" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/client/build/fonts/glyphicons-halflings-regular.woff2" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/client/build/fonts/ionicons.eot" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/client/build/fonts/ionicons.svg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/client/build/fonts/ionicons.ttf" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/client/build/fonts/ionicons.woff" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/client/build/images/bgs/13.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/client/build/images/bgs/google-office-irvine-5.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/client/build/images/bgs/panorama-demo.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/client/build/images/bgs/panorama-view.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/client/build/images/buttons/btn-appstore-dark-color.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/client/build/images/buttons/btn-appstore-light-color.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/client/build/images/buttons/btn-appstore-outline.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/client/build/images/buttons/btn-appstore-white.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/client/build/images/buttons/btn-google-play.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/client/build/images/customers/customer-1.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/client/build/images/customers/customer-2.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/client/build/images/customers/customer-3.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/client/build/images/customers/customer-4.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/client/build/images/customers/customer-5.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/client/build/images/customers/customer-6.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/client/build/images/customers/customer-7.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/client/build/images/customers/logo-customer-1.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/client/build/images/customers/logo-customer-2.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/client/build/images/customers/logo-customer-3.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/client/build/images/customers/logo-customer-4.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/client/build/images/customers/logo-customer-5.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/client/build/images/customers/logo-customer-6.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/client/build/images/customers/logo-customer-7-w.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/client/build/images/customers/logo-customer-7.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/client/build/images/customers/logo-customer-8.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/client/build/images/customers/logo-customer-9.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/client/build/images/customers/logo-customer-large.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/client/build/images/devices/devices-1.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/client/build/images/devices/devices-2.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/client/build/images/devices/devices-3.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/client/build/images/devices/devices-4.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/client/build/images/devices/devices-5.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/client/build/images/devices/devices-6.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/client/build/images/devices/devices-7.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/client/build/images/devices/ipad-1.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/client/build/images/devices/iphone-13.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/client/build/images/devices/iphone-14.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/client/build/images/devices/iphone-15.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/client/build/images/devices/iphone-16.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/client/build/images/devices/iphone-5.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/client/build/images/devices/iphone-6.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/client/build/images/devices/iphone-7.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/client/build/images/devices/iphone-8.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/client/build/images/devices/iphone-9.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/client/build/images/ecommerce/banner-1.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/client/build/images/ecommerce/banner-2.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/client/build/images/ecommerce/cc-amex.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/client/build/images/ecommerce/cc-mastercard.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/client/build/images/ecommerce/cc-paypal.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/client/build/images/ecommerce/cc-visa.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/client/build/images/ecommerce/product-1.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/client/build/images/ecommerce/product-10-large.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/client/build/images/ecommerce/product-10.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/client/build/images/ecommerce/product-11.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/client/build/images/ecommerce/product-12.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/client/build/images/ecommerce/product-13.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/client/build/images/ecommerce/product-14.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/client/build/images/ecommerce/product-15.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/client/build/images/ecommerce/product-16.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/client/build/images/ecommerce/product-17.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/client/build/images/ecommerce/product-18.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/client/build/images/ecommerce/product-19.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/client/build/images/ecommerce/product-2.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/client/build/images/ecommerce/product-20.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/client/build/images/ecommerce/product-21.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/client/build/images/ecommerce/product-22.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/client/build/images/ecommerce/product-23.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/client/build/images/ecommerce/product-3.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/client/build/images/ecommerce/product-4.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/client/build/images/ecommerce/select.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/client/build/images/emails/calendar.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/client/build/images/emails/hero-1.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/client/build/images/emails/logo-1.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/client/build/images/emails/news-1.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/client/build/images/emails/news-2.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/client/build/images/emails/news-3.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/client/build/images/emails/news-4.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/client/build/images/emails/video-1.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/client/build/images/favicon.ico" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/client/build/images/graphics/banner-1.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/client/build/images/graphics/banner-2.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/client/build/images/graphics/banner-3.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/client/build/images/graphics/city-bw.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/client/build/images/graphics/clients.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/client/build/images/graphics/collage.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/client/build/images/graphics/coming-soon-logo.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/client/build/images/graphics/hero-01.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/client/build/images/graphics/hero-02.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/client/build/images/graphics/mobile-4-1.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/client/build/images/graphics/ms1wk3HG411rijwyno1_500.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/client/build/images/graphics/noise.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/client/build/images/graphics/photo-bg.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/client/build/images/graphics/spacial-bg.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/client/build/images/icons/app-icon.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/client/build/images/icons/features-icon-canvas.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/client/build/images/icons/features-icon-compass.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/client/build/images/icons/features-icon-earth.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/client/build/images/icons/features-icon-ok.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/client/build/images/icons/features-icon-repeat.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/client/build/images/icons/features-icon-upload.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/client/build/images/icons/features-icon-world.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/client/build/images/icons/map-icon.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/client/build/images/icons/messages-icon.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/client/build/images/icons/outline-camera.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/client/build/images/icons/outline-cloud.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/client/build/images/icons/outline-color-bag.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/client/build/images/icons/outline-color-camera.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/client/build/images/icons/outline-color-drawer.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/client/build/images/icons/outline-color-mail.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/client/build/images/icons/outline-color-pen.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/client/build/images/icons/outline-color-random.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/client/build/images/icons/outline-color-settings.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/client/build/images/icons/outline-color-support.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/client/build/images/icons/outline-color-user.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/client/build/images/icons/outline-drawer.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/client/build/images/icons/outline-mail.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/client/build/images/icons/outline-user.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/client/build/images/icons/spacial-devices.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/client/build/images/icons/spacial-download.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/client/build/images/icons/spacial-location.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/client/build/images/icons/spacial-settings.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/client/build/images/icons/support.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/client/build/images/icons/waves.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/client/build/images/intro-screens.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/client/build/images/loading-dark.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/client/build/images/logo-alt-b.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/client/build/images/logo-alt-c.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/client/build/images/logo-alt-w.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/client/build/images/logo-rest.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/client/build/images/logos/WearTech-Logo.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/client/build/images/logos/apple.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/client/build/images/logos/dropbox.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/client/build/images/logos/fb.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/client/build/images/logos/google.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/client/build/images/logos/instagram.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/client/build/images/logos/stripe.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/client/build/images/logos/twitter.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/client/build/images/restaurant/05.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/client/build/images/restaurant/06.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/client/build/images/restaurant/hnck5665.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/client/build/images/restaurant/hnck5688.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/client/build/images/restaurant/project/browser.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/client/build/images/restaurant/project/browser2.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/client/build/images/restaurant/project/devices.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/client/build/images/restaurant/project/shot-1.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/client/build/images/restaurant/project/shot-2.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/client/build/images/restaurant/project/shot-3.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/client/build/images/restaurant/project/shot-4.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/client/build/images/screenshots/1.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/client/build/images/screenshots/10.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/client/build/images/screenshots/11.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/client/build/images/screenshots/12.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/client/build/images/screenshots/13.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/client/build/images/screenshots/14.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/client/build/images/screenshots/15.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/client/build/images/screenshots/16.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/client/build/images/screenshots/17.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/client/build/images/screenshots/18.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/client/build/images/screenshots/2.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/client/build/images/screenshots/3.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/client/build/images/screenshots/4.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/client/build/images/screenshots/5.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/client/build/images/screenshots/6.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/client/build/images/screenshots/7.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/client/build/images/screenshots/8.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/client/build/images/screenshots/9.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/client/build/images/setup-banner.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/client/build/images/setup.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/client/build/images/speakers/1.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/client/build/images/speakers/2.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/client/build/images/speakers/3.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/client/build/images/speakers/4.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/client/build/images/speakers/5.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/client/build/images/speakers/6.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/client/build/images/speakers/7.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/client/build/images/speakers/8.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/client/build/images/speakers/9.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/client/build/images/speakers/bowen.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/client/build/images/uifaces/1.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/client/build/images/uifaces/10.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/client/build/images/uifaces/11.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/client/build/images/uifaces/12.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/client/build/images/uifaces/13.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/client/build/images/uifaces/14.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/client/build/images/uifaces/15.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/client/build/images/uifaces/16.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/client/build/images/uifaces/17.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/client/build/images/uifaces/2.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/client/build/images/uifaces/3.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/client/build/images/uifaces/4.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/client/build/images/uifaces/5.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/client/build/images/uifaces/6.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/client/build/images/uifaces/7.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/client/build/images/uifaces/8.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/client/build/images/uifaces/9.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/client/build/images/uifaces/bowen.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/client/build/images/uifaces/parker.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/client/build/images/unsplash/andrew-neel-237802.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/client/build/images/unsplash/aranxa-esteve-130749.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/client/build/images/unsplash/breather-163403.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/client/build/images/unsplash/breather-187923.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/client/build/images/unsplash/dbtp5pc2zj5a8-aidan-meyer.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/client/build/images/unsplash/dpimskidtfo-luke-pamer.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/client/build/images/unsplash/e6hjqab7uea-dan-gold.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/client/build/images/unsplash/iagyz78h_b0-david-marcu.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/client/build/images/unsplash/jared-erondu-10472.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/client/build/images/unsplash/jkmnm3cincw-yutacar.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/client/build/images/unsplash/jorg-angeli-220264.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/client/build/images/unsplash/lee-campbell-86958.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/client/build/images/unsplash/michael-benz-189971.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/client/build/images/unsplash/obed-hernandez-113514.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/client/build/images/unsplash/osjphfgeyeu-koushik-c.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/client/build/images/unsplash/photo-1422558041234-896cd9791234.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/client/build/images/unsplash/photo-1422558044352-896cd9799885.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/client/build/images/unsplash/photo-1422665717225-1a37f226c92a.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/client/build/images/unsplash/photo-1424873380396-9580028d74db.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/client/build/images/unsplash/photo-1428278819486-8f00bd7cdf80.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/client/build/images/unsplash/photo-1428940253195-53483a1de2e6.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/client/build/images/unsplash/photo-1431068799455-80bae0caf685.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/client/build/images/unsplash/photo-1441984904996-e0b6ba687e04.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/client/build/images/unsplash/photo-1441986300917-64674bd600d8.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/client/build/images/unsplash/photo-1442965416224-f6a7eca980fa.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/client/build/images/unsplash/photo-1444210971048-6130cf0c46cf.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/client/build/images/unsplash/photo-1445282847990-42f666f865e2.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/client/build/images/unsplash/photo-1453057961357-5554bca12b05.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/client/build/images/unsplash/photo-1454942901704-3c44c11b2ad1.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/client/build/images/unsplash/photo-1461988625982-7e46a099bf4f.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/client/build/images/unsplash/photo-1465311530779-5241f5a29892.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/client/build/images/unsplash/photo-1465317480636-fc9bb019d82a.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/client/build/images/unsplash/photo-1466854076813-4aa9ac0fc347.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/client/build/images/unsplash/photo-1467659226669-a1360d97be2d.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/client/build/images/unsplash/photo-1467703834117-04386e3dadd8.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/client/build/images/unsplash/photo-1470274038469-958113db2384.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/client/build/images/unsplash/photo-1470707592630-d4784581f809.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/client/build/images/unsplash/photo-1470753937643-efeb931202a9.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/client/build/images/unsplash/photo-1471070483174-59fe82e97e01.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/client/build/images/unsplash/photo-1472132858735-6313c7962473.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/client/build/images/unsplash/photo-1472502516535-eeee381bb45e.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/client/build/images/unsplash/photo-1473213021768-ea962b488457.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/client/build/images/unsplash/photo-1474776918080-edb12cc483de.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/client/build/images/unsplash/photo-1474843148229-3163319fcc4c.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/client/build/images/unsplash/photo-1475483768296-6163e08872a1.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/client/build/images/unsplash/photo-1477420294412-93659e9347b8.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/client/build/images/unsplash/photo-1478059425650-ca13d6d422f4.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/client/build/images/unsplash/photo-1478809319988-35cad52fd89c.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/client/build/images/unsplash/photo-1479243396208-be1751535cdb.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/client/build/images/unsplash/photo-2.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/client/build/images/unsplash/qwbobpeoxjo-josh-rose.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/client/build/images/unsplash/rygidtavhkq-dave-lastovskiy.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/client/build/images/unsplash/sunset.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/client/build/images/unsplash/xg157kdwbpq-rob-bye.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/client/build/js/bootstrap/bootstrap.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/client/build/js/custom/slider.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/client/build/js/theme.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/client/build/js/vendor/gmaps.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/client/build/js/vendor/imagesloaded.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/client/build/js/vendor/jquery.ajaxchimp.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/client/build/js/vendor/jquery.elevateZoom-3.0.8.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/client/build/js/vendor/jquery.magnific.popup.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/client/build/js/vendor/jquery.panorama_viewer.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/client/build/js/vendor/jquery.simple-text-rotator.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/client/build/js/vendor/manual-loaded/panolens.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/client/build/js/vendor/masonry.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/client/build/js/vendor/modernizr.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/client/build/js/vendor/pikaday.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/client/build/js/vendor/scroll.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/client/build/js/vendor/scrolltrigger.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/client/build/js/vendor/skrollr.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/client/build/js/vendor/youtube.bg.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/client/build/js/vendor/zoomerang.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/client/build/manifest.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/client/build/scss/bootstrap/_overrides.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/client/build/scss/bootstrap/bootstrap.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/client/build/scss/custom/_layout.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/client/build/scss/custom/components/_alerts.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/client/build/scss/custom/components/_animation.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/client/build/scss/custom/components/_badges.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/client/build/scss/custom/components/_button_groups.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/client/build/scss/custom/components/_buttons.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/client/build/scss/custom/components/_dropdowns.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/client/build/scss/custom/components/_navs.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/client/build/scss/custom/components/_select.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/client/build/scss/custom/components/_stats_cards.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/client/build/scss/custom/ecommerce/_layout.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/client/build/scss/custom/ecommerce/modules/_elements.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/client/build/scss/custom/ecommerce/pages/_account_invoice.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/client/build/scss/custom/ecommerce/pages/_account_orders.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/client/build/scss/custom/ecommerce/pages/_account_profile.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/client/build/scss/custom/ecommerce/pages/_account_wishlist.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/client/build/scss/custom/ecommerce/pages/_cart.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/client/build/scss/custom/ecommerce/pages/_checkout.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/client/build/scss/custom/ecommerce/pages/_collection.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/client/build/scss/custom/ecommerce/pages/_collection_sidebar.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/client/build/scss/custom/ecommerce/pages/_index.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/client/build/scss/custom/ecommerce/pages/_product.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/client/build/scss/custom/ecommerce/pages/_search.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/client/build/scss/custom/ecommerce/pages/_sign_up.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/client/build/scss/custom/ecommerce/theme.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/client/build/scss/custom/modules/_custom_effects.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/client/build/scss/custom/modules/_mixins.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/client/build/scss/custom/pages/_agency.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/client/build/scss/custom/pages/_agency_about.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/client/build/scss/custom/pages/_agency_about_2.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/client/build/scss/custom/pages/_agency_contact.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/client/build/scss/custom/pages/_agency_contact_2.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/client/build/scss/custom/pages/_agency_portfolio.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/client/build/scss/custom/pages/_agency_project.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/client/build/scss/custom/pages/_agency_start_project.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/client/build/scss/custom/pages/_api_docs.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/client/build/scss/custom/pages/_blog.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/client/build/scss/custom/pages/_blog_3_cols.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/client/build/scss/custom/pages/_blog_grid.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/client/build/scss/custom/pages/_blog_masonry.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/client/build/scss/custom/pages/_blog_post.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/client/build/scss/custom/pages/_blog_post_3.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/client/build/scss/custom/pages/_blog_post_alt.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/client/build/scss/custom/pages/_blog_sidebar.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/client/build/scss/custom/pages/_blog_timeline.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/client/build/scss/custom/pages/_career_post.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/client/build/scss/custom/pages/_careers.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/client/build/scss/custom/pages/_coming_soon.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/client/build/scss/custom/pages/_customer_story.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/client/build/scss/custom/pages/_customers.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/client/build/scss/custom/pages/_headers.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/client/build/scss/custom/pages/_index.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/client/build/scss/custom/pages/_index_app.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/client/build/scss/custom/pages/_index_dark.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/client/build/scss/custom/pages/_index_event.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/client/build/scss/custom/pages/_index_features.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/client/build/scss/custom/pages/_index_mobile.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/client/build/scss/custom/pages/_index_mobile_2.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/client/build/scss/custom/pages/_index_mobile_3.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/client/build/scss/custom/pages/_index_mobile_4.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/client/build/scss/custom/pages/_index_photography.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/client/build/scss/custom/pages/_index_restaurant.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/client/build/scss/custom/pages/_index_slider.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/client/build/scss/custom/pages/_index_video.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/client/build/scss/custom/pages/_intro.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/client/build/scss/custom/pages/_pricing.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/client/build/scss/custom/pages/_pricing_charts.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/client/build/scss/custom/pages/_sign_in.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/client/build/scss/custom/pages/_sign_up.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/client/build/scss/custom/pages/_support.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/client/build/scss/custom/pages/_support_topic.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/client/build/scss/custom/pages/_theme_docs.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/client/build/scss/custom/pages/_timeline.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/client/build/scss/custom/snippets/_footers.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/client/build/scss/custom/snippets/_slider_effects.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/client/build/scss/custom/snippets/_slider_element.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/client/build/scss/theme.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/client/build/scss/variables.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/client/build/scss/vendor/animate.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/client/build/scss/vendor/entypo.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/client/build/scss/vendor/et-line-icons.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/client/build/scss/vendor/flipclock.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/client/build/scss/vendor/font-awesome.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/client/build/scss/vendor/ionicons.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/client/build/scss/vendor/magnific.popup.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/client/build/scss/vendor/panorama_viewer.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/client/build/scss/vendor/pikaday.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/client/build/scss/vendor/simpletextrotator.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/client/build/static/css/main.e9f492d4.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/client/build/static/css/main.e9f492d4.css.map" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/client/build/static/js/main.b062e7d7.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/client/build/static/js/main.b062e7d7.js.map" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/client/build/static/media/jumbotron_header.66eb4bd0.jpeg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/client/build/static/media/vision.d5f0d531.jpeg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/client/src/pages/contact/scss/bootstrap/_overrides.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/client/src/pages/contact/scss/bootstrap/bootstrap.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/client/src/pages/contact/scss/custom/_layout.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/client/src/pages/contact/scss/custom/components/_alerts.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/client/src/pages/contact/scss/custom/components/_animation.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/client/src/pages/contact/scss/custom/components/_badges.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/client/src/pages/contact/scss/custom/components/_button_groups.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/client/src/pages/contact/scss/custom/components/_buttons.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/client/src/pages/contact/scss/custom/components/_dropdowns.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/client/src/pages/contact/scss/custom/components/_navs.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/client/src/pages/contact/scss/custom/components/_select.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/client/src/pages/contact/scss/custom/components/_stats_cards.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/client/src/pages/contact/scss/custom/ecommerce/_layout.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/client/src/pages/contact/scss/custom/ecommerce/modules/_elements.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/client/src/pages/contact/scss/custom/ecommerce/pages/_account_invoice.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/client/src/pages/contact/scss/custom/ecommerce/pages/_account_orders.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/client/src/pages/contact/scss/custom/ecommerce/pages/_account_profile.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/client/src/pages/contact/scss/custom/ecommerce/pages/_account_wishlist.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/client/src/pages/contact/scss/custom/ecommerce/pages/_cart.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/client/src/pages/contact/scss/custom/ecommerce/pages/_checkout.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/client/src/pages/contact/scss/custom/ecommerce/pages/_collection.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/client/src/pages/contact/scss/custom/ecommerce/pages/_collection_sidebar.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/client/src/pages/contact/scss/custom/ecommerce/pages/_index.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/client/src/pages/contact/scss/custom/ecommerce/pages/_product.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/client/src/pages/contact/scss/custom/ecommerce/pages/_search.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/client/src/pages/contact/scss/custom/ecommerce/pages/_sign_up.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/client/src/pages/contact/scss/custom/ecommerce/theme.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/client/src/pages/contact/scss/custom/modules/_custom_effects.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/client/src/pages/contact/scss/custom/modules/_mixins.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/client/src/pages/contact/scss/custom/pages/_agency.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/client/src/pages/contact/scss/custom/pages/_agency_about.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/client/src/pages/contact/scss/custom/pages/_agency_about_2.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/client/src/pages/contact/scss/custom/pages/_agency_contact.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/client/src/pages/contact/scss/custom/pages/_agency_contact_2.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/client/src/pages/contact/scss/custom/pages/_agency_portfolio.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/client/src/pages/contact/scss/custom/pages/_agency_project.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/client/src/pages/contact/scss/custom/pages/_agency_start_project.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/client/src/pages/contact/scss/custom/pages/_api_docs.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/client/src/pages/contact/scss/custom/pages/_blog.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/client/src/pages/contact/scss/custom/pages/_blog_3_cols.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/client/src/pages/contact/scss/custom/pages/_blog_grid.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/client/src/pages/contact/scss/custom/pages/_blog_masonry.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/client/src/pages/contact/scss/custom/pages/_blog_post.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/client/src/pages/contact/scss/custom/pages/_blog_post_3.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/client/src/pages/contact/scss/custom/pages/_blog_post_alt.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/client/src/pages/contact/scss/custom/pages/_blog_sidebar.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/client/src/pages/contact/scss/custom/pages/_blog_timeline.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/client/src/pages/contact/scss/custom/pages/_career_post.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/client/src/pages/contact/scss/custom/pages/_careers.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/client/src/pages/contact/scss/custom/pages/_coming_soon.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/client/src/pages/contact/scss/custom/pages/_customer_story.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/client/src/pages/contact/scss/custom/pages/_customers.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/client/src/pages/contact/scss/custom/pages/_headers.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/client/src/pages/contact/scss/custom/pages/_index.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/client/src/pages/contact/scss/custom/pages/_index_app.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/client/src/pages/contact/scss/custom/pages/_index_dark.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/client/src/pages/contact/scss/custom/pages/_index_event.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/client/src/pages/contact/scss/custom/pages/_index_features.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/client/src/pages/contact/scss/custom/pages/_index_mobile.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/client/src/pages/contact/scss/custom/pages/_index_mobile_2.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/client/src/pages/contact/scss/custom/pages/_index_mobile_3.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/client/src/pages/contact/scss/custom/pages/_index_mobile_4.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/client/src/pages/contact/scss/custom/pages/_index_photography.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/client/src/pages/contact/scss/custom/pages/_index_restaurant.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/client/src/pages/contact/scss/custom/pages/_index_slider.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/client/src/pages/contact/scss/custom/pages/_index_video.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/client/src/pages/contact/scss/custom/pages/_intro.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/client/src/pages/contact/scss/custom/pages/_pricing.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/client/src/pages/contact/scss/custom/pages/_pricing_charts.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/client/src/pages/contact/scss/custom/pages/_sign_in.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/client/src/pages/contact/scss/custom/pages/_sign_up.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/client/src/pages/contact/scss/custom/pages/_support.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/client/src/pages/contact/scss/custom/pages/_support_topic.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/client/src/pages/contact/scss/custom/pages/_theme_docs.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/client/src/pages/contact/scss/custom/pages/_timeline.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/client/src/pages/contact/scss/custom/snippets/_footers.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/client/src/pages/contact/scss/custom/snippets/_slider_effects.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/client/src/pages/contact/scss/custom/snippets/_slider_element.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/client/src/pages/contact/scss/theme.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/client/src/pages/contact/scss/variables.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/client/src/pages/contact/scss/vendor/animate.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/client/src/pages/contact/scss/vendor/entypo.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/client/src/pages/contact/scss/vendor/et-line-icons.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/client/src/pages/contact/scss/vendor/flipclock.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/client/src/pages/contact/scss/vendor/font-awesome.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/client/src/pages/contact/scss/vendor/ionicons.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/client/src/pages/contact/scss/vendor/magnific.popup.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/client/src/pages/contact/scss/vendor/panorama_viewer.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/client/src/pages/contact/scss/vendor/pikaday.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/client/src/pages/contact/scss/vendor/simpletextrotator.scss" />
       <change beforePath="$PROJECT_DIR$/client/build/asset-manifest.json" afterPath="$PROJECT_DIR$/client/build/asset-manifest.json" />
       <change beforePath="$PROJECT_DIR$/client/build/index.html" afterPath="$PROJECT_DIR$/client/build/index.html" />
       <change beforePath="$PROJECT_DIR$/client/build/service-worker.js" afterPath="$PROJECT_DIR$/client/build/service-worker.js" />
-      <change beforePath="$PROJECT_DIR$/client/build/static/css/main.7bb3f43d.css.map" afterPath="$PROJECT_DIR$/client/build/static/css/main.7bb3f43d.css.map" />
-      <change beforePath="$PROJECT_DIR$/client/build/static/js/main.3edf5807.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/client/build/static/js/main.3edf5807.js.map" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/client/src/App.css" afterPath="$PROJECT_DIR$/client/src/app.css" />
+      <change beforePath="$PROJECT_DIR$/client/src/app.css" afterPath="$PROJECT_DIR$/client/src/app.css" />
+      <change beforePath="$PROJECT_DIR$/client/src/pages/contact/contact.js" afterPath="$PROJECT_DIR$/client/src/pages/contact/contact.js" />
+      <change beforePath="$PROJECT_DIR$/client/src/pages/home/home.js" afterPath="$PROJECT_DIR$/client/src/pages/home/home.js" />
+      <change beforePath="$PROJECT_DIR$/client/src/pages/team/team.js" afterPath="$PROJECT_DIR$/client/src/pages/team/team.js" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -20,7 +533,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="App.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="App.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/client/src/App.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
@@ -28,6 +541,36 @@
               <folding>
                 <element signature="e#0#41#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="asset-manifest.json" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/client/build/asset-manifest.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="1" lean-forward="false" selection-start-line="0" selection-start-column="1" selection-end-line="0" selection-end-column="1" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/client/build/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="24">
+              <caret line="1" column="1184" lean-forward="false" selection-start-line="1" selection-start-column="1184" selection-end-line="1" selection-end-column="1184" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="service-worker.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/client/build/service-worker.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -50,6 +593,9 @@
         <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/client/src/pages/app/app.js" />
         <option value="$PROJECT_DIR$/client/src/App.js" />
+        <option value="$PROJECT_DIR$/client/build/asset-manifest.json" />
+        <option value="$PROJECT_DIR$/client/build/index.html" />
+        <option value="$PROJECT_DIR$/client/build/service-worker.js" />
       </list>
     </option>
   </component>
@@ -95,6 +641,19 @@
               <item name="Root" type="cbb8eebc:String" user="Root" />
               <item name="weartech" type="cbb8eebc:String" user="weartech" />
               <item name="client" type="cbb8eebc:String" user="client" />
+            </path>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="weartech" type="cbb8eebc:String" user="weartech" />
+              <item name="client" type="cbb8eebc:String" user="client" />
+              <item name="build" type="cbb8eebc:String" user="build" />
+            </path>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="weartech" type="cbb8eebc:String" user="weartech" />
+              <item name="client" type="cbb8eebc:String" user="client" />
+              <item name="build" type="cbb8eebc:String" user="build" />
+              <item name="static" type="cbb8eebc:String" user="static" />
             </path>
             <path>
               <item name="Root" type="cbb8eebc:String" user="Root" />
@@ -316,10 +875,11 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1172000" />
+    <option name="totallyTimeSpent" value="1333000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="83" y="45" width="1308" height="816" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -330,7 +890,7 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.40188172" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.40188172" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23776758" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -414,27 +974,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/server.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="648">
-          <caret line="27" column="0" lean-forward="false" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="260">
-          <caret line="23" column="27" lean-forward="false" selection-start-line="23" selection-start-column="27" selection-end-line="23" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="403">
-          <caret line="29" column="24" lean-forward="false" selection-start-line="29" selection-start-column="24" selection-end-line="29" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/client/src/components/app/d3Line/d3Line.js" />
     <entry file="file://$PROJECT_DIR$/routes/index.js">
       <provider selected="true" editor-type-id="text-editor">
@@ -672,6 +1211,30 @@
           <folding>
             <element signature="e#0#41#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/build/asset-manifest.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="1" lean-forward="false" selection-start-line="0" selection-start-column="1" selection-end-line="0" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/build/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="24">
+          <caret line="1" column="1184" lean-forward="false" selection-start-line="1" selection-start-column="1184" selection-end-line="1" selection-end-column="1184" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/build/service-worker.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
