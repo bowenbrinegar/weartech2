@@ -14,6 +14,15 @@ export default {
   getOneCushion: function() {
     return axios.get('/api/db/cushion/one')
   },
+  getCushionByID: function(id) {
+    return axios.get('/api/db/cushion/' + id)
+  },
+  getShoeByID: function(id) {
+    return axios.get('/api/db/shoe/' + id)
+  },
+  getBedByID: function(id) {
+    return axios.get('/api/db/bed/' + id)
+  },
   getCushions: function() {
     return axios.get('/api/db/cushion')
   },

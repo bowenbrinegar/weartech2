@@ -30,6 +30,27 @@ module.exports = {
       .then(result => res.send(result))
       .catch(err => console.log(err))
   },
+  getCushionByID: function(req, res) {
+    db.CushionSensor
+      .find({institution: req.params.id})
+      .populate('data')
+      .then(result => res.send(result))
+      .catch(err => console.log(err))
+  },
+  getShoeByID: function(req, res) {
+    db.ShoeSensor
+      .find({institution: req.params.id})
+      .populate('data')
+      .then(result => res.send(result))
+      .catch(err => console.log(err))
+  },
+  getBedByID: function(req, res) {
+    db.BedSensor
+      .find({institution: req.params.id})
+      .populate('data')
+      .then(result => res.send(result))
+      .catch(err => console.log(err))
+  },
   findAllBedSensor: function(req, res) {
     db.BedSensor
       .find({})

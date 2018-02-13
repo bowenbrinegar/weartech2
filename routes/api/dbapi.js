@@ -11,6 +11,15 @@ router.route("/institution")
 router.route("/institution/:institution")
   .get(dbController.findInstitutionByID)
 
+router.route('/cushion/:id')
+  .get(dbController.getCushionByID)
+
+router.route('/shoe/:id')
+  .get(dbController.getShoeByID)
+
+router.route('/bed/:id')
+  .get(dbController.getBedByID)
+
 router.route('/cushion')
   .get(dbController.findAllCushionSensor)
   .post(dbController.createCushion);
