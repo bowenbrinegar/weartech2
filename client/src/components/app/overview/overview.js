@@ -54,7 +54,37 @@ const chart4 = {
   labels: ['M', 'Tu', 'W', 'Th', 'F', 'S', 'Sn'],
   datasets: [
     {
-      label: 'Shoe Pressure Record',
+      label: 'Cushion Connection Strength',
+      backgroundColor: "rgba(255,99,132,0.2)",
+      borderColor: "rgba(255,99,132,1)",
+      borderWidth: 1,
+      hoverBackgroundColor: "rgba(255,99,132,0.4)",
+      hoverBorderColor: "rgba(255,99,132,1)",
+      data: [65, 59, 80, 81, 56, 55, 40],
+    },
+  ]
+};
+
+const chart5 = {
+  labels: ['M', 'Tu', 'W', 'Th', 'F', 'S', 'Sn'],
+  datasets: [
+    {
+      label: 'Bed Compression Time',
+      backgroundColor: "rgba(255,99,132,0.2)",
+      borderColor: "rgba(255,99,132,1)",
+      borderWidth: 1,
+      hoverBackgroundColor: "rgba(255,99,132,0.4)",
+      hoverBorderColor: "rgba(255,99,132,1)",
+      data: [65, 59, 80, 81, 56, 55, 40],
+    },
+  ]
+};
+
+const chart6 = {
+  labels: ['M', 'Tu', 'W', 'Th', 'F', 'S', 'Sn'],
+  datasets: [
+    {
+      label: 'Shoe Steps',
       backgroundColor: "rgba(255,99,132,0.2)",
       borderColor: "rgba(255,99,132,1)",
       borderWidth: 1,
@@ -73,6 +103,8 @@ class OverView extends Component {
     chart2: {},
     chart3: {},
     chart4: {},
+    chart5: {},
+    chart6: {},
     options: {
       responsive: true,
       maintainAspectRatio: false,
@@ -148,18 +180,63 @@ class OverView extends Component {
     setTimeout(() => {
       this.setState({chart3: chart3})
     }, 1000)
-
   };
-  //
-  // chart4 = () => {
-  //   this.setState({chart4: chart4Line})
-  // }
+
+  chart4 = () => {
+    let arr = [];
+    DB.getCushionByID(this.props.institution)
+      .then(res => {
+        if (res.data.length > 0) {
+          for (let i = 0; i < 7; i++) {
+            arr.push(res.data[0].data[i].connectionStrength)
+          }
+        }
+      })
+    chart4.datasets[0].data = arr;
+    setTimeout(() => {
+      this.setState({chart4: chart4})
+    }, 1000)
+  };
+
+  chart5 = () => {
+    let arr = [];
+    DB.getBedByID(this.props.institution)
+      .then(res => {
+        if (res.data.length > 0) {
+          for (let i = 0; i < 7; i++) {
+            arr.push(res.data[0].data[i].compressionTime)
+          }
+        }
+      })
+    chart5.datasets[0].data = arr;
+    setTimeout(() => {
+      this.setState({chart5: chart5})
+    }, 1000)
+  };
+
+  chart6 = () => {
+    let arr = [];
+    DB.getShoeByID(this.props.institution)
+      .then(res => {
+        if (res.data.length > 0) {
+          for (let i = 0; i < 7; i++) {
+            arr.push(res.data[0].data[i].steps)
+          }
+        }
+      })
+    chart6.datasets[0].data = arr;
+    setTimeout(() => {
+      this.setState({chart6: chart6})
+    }, 1000)
+  };
 
   loadCharts = () => {
     this.chart1();
     this.chart2();
     this.chart3();
-    // this.chart4();
+    this.chart4();
+    this.chart5();
+    this.chart6();
   };
 
   componentWillMount() {
@@ -191,6 +268,28 @@ class OverView extends Component {
             />
           </div>
         </div>
+        <div id="chartBox">
+          <div id="chart1">
+            <LineChart data={this.state.chart6}
+                       options={this.state.options}
+            />
+          </div>
+        </div>
+        <div id="chartBox">
+          <div id="chart1">
+            <LineChart data={this.state.chart4}
+                       options={this.state.options}
+            />
+          </div>
+        </div>
+        <div id="chartBox">
+          <div id="chart1">
+            <LineChart data={this.state.chart5}
+                       options={this.state.options}
+            />
+          </div>
+        </div>
+
         {/*{this.chart2 ? (<div id="chart2">*/}
           {/*<BarChart data={this.state.chart2}/>*/}
         {/*</div>) : (<h1 id="chart2">No Data</h1>)}*/}
