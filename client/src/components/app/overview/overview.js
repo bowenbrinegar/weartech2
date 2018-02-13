@@ -118,15 +118,15 @@ class OverView extends Component {
     let arr = [];
     DB.getCushionByID(this.props.institution)
       .then(res => {
-        res.data.length > 0 ? arr[0] = res.data.length : arr[0] = 0
+        res.data.length > 0 ? arr[0] = res.data[0].data.length : arr[0] = 0
       });
     DB.getBedByID(this.props.institution)
       .then(res => {
-        res.data.length > 0 ? arr[1] = res.data.length : arr[1] = 0
+        res.data.length > 0 ? arr[1] = res.data[0].data.length : arr[1] = 0
       });
     DB.getShoeByID(this.props.institution)
       .then(res => {
-        res.data.length > 0 ? arr[2] = res.data.length : arr[2] = 0
+        res.data.length > 0 ? arr[2] = res.data[0].data.length : arr[2] = 0
       });
     chart2.datasets[0].data = arr;
     setTimeout(() => {
