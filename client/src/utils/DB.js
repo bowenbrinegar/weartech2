@@ -8,6 +8,9 @@ export default {
   getInstitutions: function() {
     return axios.get("/api/db/institution")
   },
+  getInstitutionByID: function(name) {
+    return axios.get("/api/db/institution/" + name)
+  },
   getOneCushion: function() {
     return axios.get('/api/db/cushion/one')
   },

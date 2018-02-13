@@ -8,6 +8,9 @@ router.route("/institution")
   .get(dbController.findAllInstitution)
   .post(dbController.createInstitution);
 
+router.route("/institution/:institution")
+  .get(dbController.findInstitutionByID)
+
 router.route('/cushion')
   .get(dbController.findAllCushionSensor)
   .post(dbController.createCushion);
