@@ -29,7 +29,10 @@ class Team extends Component {
                 <div className="col-md-4">
                   <div className="member">
                     <div className="mask">
-                      <Link to="https://www.linkedin.com/in/bowen-brinegar-6047ab67/">
+                      <Link
+                        to="https://www.linkedin.com/in/bowen-brinegar-6047ab67/"
+                        target="_blank"
+                      >
                         <i className="fa fa-linkedin" />
                       </Link>
                       <Link
