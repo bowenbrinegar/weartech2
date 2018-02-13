@@ -19,8 +19,11 @@ class Home extends Component {
       <div id="homeContainer">
         <div id="appContainer">
           <JumbotronBusiness>
-            <h2 className="customFadeInUp">Weartech</h2>
-            <p className="customFadeInUp">
+            <h2 className="customFadeInUp">
+              WearTech Means Intelligent Products
+            </h2>
+            <p>Faciliating communication between you and your products.</p>
+            {/*<p className="customFadeInUp">
               Imagine being inside your customer's head at the point of decision
               making. Our data products offer a direct path into the mind of the
               consumer.
@@ -30,13 +33,13 @@ class Home extends Component {
               product’s life-cycle is ending thus enabling direct B2B and B2C
               marketing at the most critical decision making time...when the
               product wears out.
-            </p>
-            <Button
-              value="Demo App"
-              className="actions customFadeInUp btn-pill btn-pill-primary btn-pill-lg"
-            >
-              <Link to="/app">Demo App</Link>
-            </Button>
+            </p>*/}
+            <Link to="/contact">
+              <Button
+                value="Let's Go"
+                className="actions customFadeInUp btn-pill btn-pill-primary btn-pill-lg"
+              />
+            </Link>
           </JumbotronBusiness>
 
           <div className="spacial-features" data-scroll>
@@ -44,7 +47,7 @@ class Home extends Component {
               <div className="row">
                 <div className="col-12">
                   <Header>
-                    <h2>Control your Product's Life-Cycle Data</h2>
+                    <h2>Manage your Product's Entire Lifecycle</h2>
                     <p>
                       Weartech's web and mobile application grants companies the
                       ability to uncover insights about their consumers product
@@ -57,10 +60,10 @@ class Home extends Component {
                 <div className="col-md-6">
                   <Feature className="feature">
                     <img src="images/icons/spacial-devices.png" />
-                    <h3>Marketers: Engage with your customers.</h3>
+                    <h3>Marketers</h3>
                     <p>
-                      Interact with your consumer base at their point of
-                      purchase.
+                      Know when your product needs to be replaced and engage
+                      with the customer at that exact moment.
                     </p>
                   </Feature>
                 </div>
@@ -217,16 +220,19 @@ class Home extends Component {
               <div className="row">
                 <div className="col-md-3">
                   <h4>About</h4>
-                  <a href="#" className="legal">
+                  <Link to="/app" className="legal">
                     App
-                  </a>
-                  <a href="#" className="legal">
+                  </Link>
+                  <Link to="/team" className="legal">
                     Team
-                  </a>
+                  </Link>
                 </div>
                 <div className="col-md-3">
                   <h4>Address</h4>
-                  <p>530 Foster Street, Durham, NC, 27701</p>
+                  <p>
+                    530 Foster Street, <br />
+                    Durham, NC, 27701
+                  </p>
                 </div>
                 <div className="col-md-3">
                   <h4>Contact</h4>
