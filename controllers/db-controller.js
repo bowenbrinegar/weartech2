@@ -21,6 +21,15 @@ module.exports = {
       .then(result => res.send(result))
       .catch(err => console.log(err))
   },
+  findInstitutionByID: function(req, res) {
+    db.Institution
+      .find({_id: req.params.institution})
+      .populate('cushion')
+      .populate('shoe')
+      .populate('bed')
+      .then(result => res.send(result))
+      .catch(err => console.log(err))
+  },
   findAllBedSensor: function(req, res) {
     db.BedSensor
       .find({})
