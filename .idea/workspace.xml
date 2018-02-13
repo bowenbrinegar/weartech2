@@ -25,8 +25,25 @@
           </provider>
         </entry>
       </file>
+<<<<<<< Updated upstream
       <file leaf-file-name="server.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/server.js">
+=======
+      <file leaf-file-name="app.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/client/src/pages/app/app.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding>
+                <element signature="e#0#41#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/client/build/index.html">
+>>>>>>> Stashed changes
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="188">
               <caret line="21" column="17" lean-forward="true" selection-start-line="21" selection-start-column="17" selection-end-line="21" selection-end-column="17" />
@@ -67,7 +84,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="dbapi.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="dbapi.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/routes/api/dbapi.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="336">
@@ -188,6 +205,7 @@
               <item name="Root" type="cbb8eebc:String" user="Root" />
               <item name="weartech" type="cbb8eebc:String" user="weartech" />
             </path>
+<<<<<<< Updated upstream
             <path>
               <item name="Root" type="cbb8eebc:String" user="Root" />
               <item name="weartech" type="cbb8eebc:String" user="weartech" />
@@ -244,6 +262,8 @@
               <item name="weartech" type="cbb8eebc:String" user="weartech" />
               <item name="routes" type="cbb8eebc:String" user="routes" />
             </path>
+=======
+>>>>>>> Stashed changes
           </expand>
           <select />
         </subPane>
@@ -567,7 +587,11 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
+<<<<<<< Updated upstream
     <option name="totallyTimeSpent" value="25284000" />
+=======
+    <option name="totallyTimeSpent" value="2315000" />
+>>>>>>> Stashed changes
   </component>
   <component name="ToolWindowManager">
     <frame x="3" y="22" width="1433" height="867" extended-state="6" />
@@ -873,6 +897,7 @@
         </state>
       </provider>
     </entry>
+<<<<<<< Updated upstream
     <entry file="file://$PROJECT_DIR$/client/src/components/app/charts/totalSensor/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -882,6 +907,10 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/models/institution.js">
+=======
+    <entry file="file://$PROJECT_DIR$/controllers/db-controller.js" />
+    <entry file="file://$PROJECT_DIR$/client/src/utils/DB.js">
+>>>>>>> Stashed changes
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -889,6 +918,7 @@
         </state>
       </provider>
     </entry>
+<<<<<<< Updated upstream
     <entry file="file://$PROJECT_DIR$/client/src/components/app/charts/totalSensor/totalSensor.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="264">
@@ -908,6 +938,9 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/client/src/components/app/list/list.js">
+=======
+    <entry file="file://$PROJECT_DIR$/client/build/asset-manifest.json">
+>>>>>>> Stashed changes
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-192">
           <caret line="18" column="23" lean-forward="false" selection-start-line="18" selection-start-column="23" selection-end-line="18" selection-end-column="23" />
@@ -984,6 +1017,34 @@
         <state relative-caret-position="336">
           <caret line="14" column="41" lean-forward="true" selection-start-line="14" selection-start-column="41" selection-end-line="14" selection-end-column="41" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/src/utils/app.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-355">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/src/App.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/src/pages/app/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
