@@ -1,6 +1,8 @@
 const db = require("../models");
 const mongoose = require('mongoose')
 const Moment = require('moment')
+const json2csv = require('json2csv')
+const fs = require('fs');
 
 module.exports = {
   clear: function(req, res) {
@@ -19,22 +21,67 @@ module.exports = {
       .then(result => res.send(result))
       .catch(err => console.log(err))
   },
+  findInstitutionByID: function(req, res) {
+    db.Institution
+      .find({_id: req.params.institution})
+      .populate('cushion')
+      .populate('shoe')
+      .populate('bed')
+      .then(result => res.send(result))
+      .catch(err => console.log(err))
+  },
+  getCushionByID: function(req, res) {
+    db.CushionSensor
+      .find({institution: req.params.id})
+      .populate('data')
+      .then(result => res.send(result))
+      .catch(err => console.log(err))
+  },
+  getShoeByID: function(req, res) {
+    db.ShoeSensor
+      .find({institution: req.params.id})
+      .populate('data')
+      .then(result => res.send(result))
+      .catch(err => console.log(err))
+  },
+  getBedByID: function(req, res) {
+    db.BedSensor
+      .find({institution: req.params.id})
+      .populate('data')
+      .then(result => res.send(result))
+      .catch(err => console.log(err))
+  },
   findAllBedSensor: function(req, res) {
     db.BedSensor
       .find({})
+      .populate('data')
       .then(result => res.send(result))
       .catch(err => console.log(err))
   },
   findAllShoeSensor: function(req, res) {
     db.ShoeSensor
       .find({})
+      .populate('data')
       .then(result => res.send(result))
       .catch(err => console.log(err))
   },
   findAllCushionSensor: function(req, res) {
     db.CushionSensor
       .find({})
+      .populate('data')
       .then(result => res.send(result))
+      .catch(err => console.log(err))
+  },
+  findOneCushionSensor: function(req, res) {
+    db.CushionSensor
+      .find({})
+      .populate('data')
+      .then(result => {
+        fs.writeFile('cvsFiles/findFirstCushionSensor.json', result[0].data, function(err) {
+          if (err) throw err;
+          console.log('file saved');
+        });
+      })
       .catch(err => console.log(err))
   },
   createInstitution: function(req, res) {

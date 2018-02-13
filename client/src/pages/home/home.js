@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import "../../app.css";
+import "../../App.css";
 import "./scss/bootstrap/bootstrap.css";
 import JumbotronBusiness from "../../components/home/jumbotrons/jumbotron_business";
 import JumbotronFounder from "../../components/home/jumbotrons/jumbotron_founder";

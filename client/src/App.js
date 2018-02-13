@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import Nav from "./components/nav/nav";
 import { Home, Team, App, Contact, Populate } from "./pages";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
-import "./app.css";
+import "./App.css";
 
 class Website extends Component {
   render() {
