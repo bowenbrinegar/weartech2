@@ -11,7 +11,7 @@ router.route("/institution")
 router.route("/institution/:name")
   .get(dbController.findAllInstitutionsByName)
 
-router.route("/institution/:institution")
+router.route("/institution/getbyID/:id")
   .get(dbController.findInstitutionByID)
 
 router.route('/cushion/:id')

@@ -26,7 +26,7 @@ module.exports = {
   },
   findInstitutionByID: function(req, res) {
     db.Institution
-      .find({_id: req.params.institution})
+      .find({_id: req.params.id})
       .populate('cushion')
       .populate('shoe')
       .populate('bed')

@@ -11,7 +11,7 @@ export default {
   return axios.get("/api/db/institution/" + name)
   },
   getInstitutionByID: function(id) {
-    return axios.get("/api/db/institution/" + id)
+    return axios.get("/api/db/institution/getbyID/" + id)
   },
   getOneCushion: function() {
     return axios.get('/api/db/cushion/one')
