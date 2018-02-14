@@ -1,11 +1,4 @@
-* {
-    margin: 0;
-}
 
-input:focus,
-button:focus {
-    outline: none;
-}
 
 #applicationContainer {
     position: absolute;
@@ -87,7 +80,7 @@ button:focus {
     bottom: 0;
     left: 0;
     right: 0;
-};
+}
 
 .inventoryContainer {
     position: absolute;

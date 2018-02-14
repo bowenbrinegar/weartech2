@@ -2,6 +2,7 @@ import React, { Component } from 'react'
 import "./modal.css"
 import DB from '../../../utils/DB';
 import Moment from 'moment'
+import Input from '../list/search/input';
 
 let connection = Math.floor(Math.random() * (10 - 6)) + 6;
 let sitTime = Math.floor(Math.random() * (480 - 30)) + 30;
@@ -30,6 +31,13 @@ const refresh = () => {
 class Modal extends Component {
   state = {
     sensor: '',
+    institutionName: '',
+    institutionSize: ''
+  };
+
+  handleInputChange = event => {
+    const { name, value } = event.target;
+    this.setState({ [name]: value });
   };
 
   addSensor = () => {
@@ -58,6 +66,19 @@ class Modal extends Component {
     }
   };
 
+  addDataIn = () => {
+    DB.createInstitution({
+      institution: this.state.institutionName,
+      size: this.state.institutionSize,
+      createAt: Moment(),
+      updatedAt: Moment()
+    }).then(res => {
+      this.props.handleChange(res.data._id);
+    });
+
+  };
+
+
   render() {
     if (!this.props.show) {
       return null;
@@ -83,8 +104,36 @@ class Modal extends Component {
     } else if (this.props.value === "institution") {
       return (
         <div id="modal">
-          <h1>Institution Modal</h1>
-          <button value='Close' onClick={this.props.close}>Close</button>
+          <button id='Close'
+                  value='Close'
+                  onClick={this.props.close}>Close</button>
+          <div id='modalHeader'>
+            <h1 id='modalH1'>Institution Add</h1>
+          </div>
+          <div id='modalContent'>
+            <div id='inputArea'>
+              <input
+                className='modalInput'
+                placeholder="institution name"
+                value={this.state.institutionName}
+                onChange={this.handleInputChange}
+                name="institutionName"
+              />
+              <input
+                className='modalInput'
+                placeholder="institution size"
+                value={this.state.institutionSize}
+                onChange={this.handleInputChange}
+                name="institutionSize"
+              />
+
+            </div>
+            <button id='sensorModalButton'
+                    onClick={this.addDataIn}
+            >
+              Submit
+            </button>
+          </div>
         </div>
       )
     }

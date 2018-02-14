@@ -27,7 +27,6 @@ class List extends Component {
         console.log(this.state.institutions)
       })
       .catch(err => console.log(err))
-
   }
 
   render() {

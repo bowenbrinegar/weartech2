@@ -23,6 +23,10 @@ class App extends Component {
     },100)
   };
 
+  handleInstitutionAddition = (institution) => {
+    this.setState({institution: institution});
+  };
+
   toggleView = () => {
     if (this.state.inventoryShow) {
       this.setState({
@@ -102,6 +106,7 @@ class App extends Component {
               value="institution"
               close={this.toggleModal.bind(this)}
               institution={this.state.institution}
+              handleChange={this.handleInstitutionAddition.bind(this)}
             />
             <div id='toggleContainer'>
               <Inventory
