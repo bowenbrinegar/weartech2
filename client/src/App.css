@@ -6,6 +6,7 @@ input:focus,
 button:focus {
     outline: none;
 }
+
 #applicationContainer {
     position: absolute;
     left: 60px;

@@ -3,10 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="10235634-288f-4d5a-b471-d18e257d0a68" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/client/src/components/app/modals/modal.js" afterPath="$PROJECT_DIR$/client/src/components/app/modals/modal.js" />
-      <change beforePath="$PROJECT_DIR$/client/src/components/app/overview/overview.js" afterPath="$PROJECT_DIR$/client/src/components/app/overview/overview.js" />
-      <change beforePath="$PROJECT_DIR$/client/src/utils/DB.js" afterPath="$PROJECT_DIR$/client/src/utils/DB.js" />
-      <change beforePath="$PROJECT_DIR$/controllers/db-controller.js" afterPath="$PROJECT_DIR$/controllers/db-controller.js" />
+      <change beforePath="$PROJECT_DIR$/client/src/App.css" afterPath="$PROJECT_DIR$/client/src/App.css" />
+      <change beforePath="$PROJECT_DIR$/client/src/components/app/inventory/inventory.css" afterPath="$PROJECT_DIR$/client/src/components/app/inventory/inventory.css" />
+      <change beforePath="$PROJECT_DIR$/client/src/components/app/inventory/inventory.js" afterPath="$PROJECT_DIR$/client/src/components/app/inventory/inventory.js" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -36,7 +35,6 @@
         <option value="$PROJECT_DIR$/client/build/asset-manifest.json" />
         <option value="$PROJECT_DIR$/client/build/index.html" />
         <option value="$PROJECT_DIR$/client/build/service-worker.js" />
-        <option value="$PROJECT_DIR$/client/src/App.css" />
         <option value="$PROJECT_DIR$/client/src/components/app/list/listItem/listItem.css" />
         <option value="$PROJECT_DIR$/client/src/components/app/list/listItem/listItem.js" />
         <option value="$PROJECT_DIR$/client/src/components/app/list/search/search.js" />
@@ -47,9 +45,12 @@
         <option value="$PROJECT_DIR$/routes/api/dbapi.js" />
         <option value="$PROJECT_DIR$/client/src/components/app/modals/modal.js" />
         <option value="$PROJECT_DIR$/client/src/pages/app/app.js" />
-        <option value="$PROJECT_DIR$/client/src/components/app/overview/overview.js" />
         <option value="$PROJECT_DIR$/client/src/utils/DB.js" />
         <option value="$PROJECT_DIR$/controllers/db-controller.js" />
+        <option value="$PROJECT_DIR$/client/src/components/app/overview/overview.js" />
+        <option value="$PROJECT_DIR$/client/src/App.css" />
+        <option value="$PROJECT_DIR$/client/src/components/app/inventory/inventory.js" />
+        <option value="$PROJECT_DIR$/client/src/components/app/inventory/inventory.css" />
       </list>
     </option>
   </component>
@@ -66,7 +67,7 @@
   <component name="ProjectFrameBounds">
     <option name="x" value="34" />
     <option name="y" value="41" />
-    <option name="width" value="1246" />
+    <option name="width" value="970" />
     <option name="height" value="814" />
   </component>
   <component name="ProjectView">
@@ -177,40 +178,7 @@
               <item name="src" type="cbb8eebc:String" user="src" />
               <item name="components" type="cbb8eebc:String" user="components" />
               <item name="app" type="cbb8eebc:String" user="app" />
-              <item name="list" type="cbb8eebc:String" user="list" />
-            </path>
-            <path>
-              <item name="Root" type="cbb8eebc:String" user="Root" />
-              <item name="weartech" type="cbb8eebc:String" user="weartech" />
-              <item name="client" type="cbb8eebc:String" user="client" />
-              <item name="src" type="cbb8eebc:String" user="src" />
-              <item name="components" type="cbb8eebc:String" user="components" />
-              <item name="app" type="cbb8eebc:String" user="app" />
-              <item name="modals" type="cbb8eebc:String" user="modals" />
-            </path>
-            <path>
-              <item name="Root" type="cbb8eebc:String" user="Root" />
-              <item name="weartech" type="cbb8eebc:String" user="weartech" />
-              <item name="client" type="cbb8eebc:String" user="client" />
-              <item name="src" type="cbb8eebc:String" user="src" />
-              <item name="components" type="cbb8eebc:String" user="components" />
-              <item name="app" type="cbb8eebc:String" user="app" />
-              <item name="overview" type="cbb8eebc:String" user="overview" />
-            </path>
-            <path>
-              <item name="Root" type="cbb8eebc:String" user="Root" />
-              <item name="weartech" type="cbb8eebc:String" user="weartech" />
-              <item name="client" type="cbb8eebc:String" user="client" />
-              <item name="src" type="cbb8eebc:String" user="src" />
-              <item name="pages" type="cbb8eebc:String" user="pages" />
-            </path>
-            <path>
-              <item name="Root" type="cbb8eebc:String" user="Root" />
-              <item name="weartech" type="cbb8eebc:String" user="weartech" />
-              <item name="client" type="cbb8eebc:String" user="client" />
-              <item name="src" type="cbb8eebc:String" user="src" />
-              <item name="pages" type="cbb8eebc:String" user="pages" />
-              <item name="app" type="cbb8eebc:String" user="app" />
+              <item name="inventory" type="cbb8eebc:String" user="inventory" />
             </path>
             <path>
               <item name="Root" type="cbb8eebc:String" user="Root" />
@@ -369,7 +337,7 @@
       <workItem from="1518282826198" duration="39000" />
       <workItem from="1518296759723" duration="212000" />
       <workItem from="1518555822591" duration="51000" />
-      <workItem from="1518560299000" duration="3585000" />
+      <workItem from="1518560299000" duration="5262000" />
     </task>
     <task id="LOCAL-00001" summary="changed height of app container">
       <created>1518561706678</created>
@@ -413,14 +381,21 @@
       <option name="project" value="LOCAL" />
       <updated>1518564104408</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="weird err, moving on">
+      <created>1518565252722</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1518565252722</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7010000" />
+    <option name="totallyTimeSpent" value="8687000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="34" y="41" width="1246" height="814" extended-state="0" />
+    <frame x="34" y="41" width="970" height="814" extended-state="0" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -434,7 +409,7 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32884097" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24959871" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32061857" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Learn" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -495,21 +470,14 @@
     <MESSAGE value="updated list component; in progress" />
     <MESSAGE value="input css complete" />
     <MESSAGE value="sensor modal" />
-    <option name="LAST_COMMIT_MESSAGE" value="sensor modal" />
+    <MESSAGE value="weird err, moving on" />
+    <option name="LAST_COMMIT_MESSAGE" value="weird err, moving on" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Procfile">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/src/components/app/linechart/index.js" />
     <entry file="file://$PROJECT_DIR$/client/src/components/app/d3Line/index.js" />
     <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor">
@@ -664,14 +632,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/client/src/App.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="14" column="16" lean-forward="false" selection-start-line="14" selection-start-column="16" selection-end-line="14" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/server.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -724,14 +684,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/client/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/client/src/components/app/modals/modal.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="339">
@@ -756,30 +708,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/client/src/utils/DB.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="256">
-          <caret line="12" column="20" lean-forward="false" selection-start-line="12" selection-start-column="20" selection-end-line="12" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/src/components/app/overview/overview.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="81">
-          <caret line="127" column="9" lean-forward="true" selection-start-line="127" selection-start-column="9" selection-end-line="127" selection-end-column="27" />
-          <folding>
-            <element signature="e#0#40#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/client/src/pages/app/app.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1897">
           <caret line="19" column="37" lean-forward="false" selection-start-line="19" selection-start-column="37" selection-end-line="19" selection-end-column="37" />
           <folding>
-            <element signature="e#0#41#0" expanded="true" />
+            <element signature="e#0#41#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -789,7 +723,7 @@
         <state relative-caret-position="-226">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#0#40#0" expanded="true" />
+            <element signature="e#0#40#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -799,8 +733,60 @@
         <state relative-caret-position="240">
           <caret line="10" column="38" lean-forward="false" selection-start-line="10" selection-start-column="38" selection-end-line="10" selection-end-column="38" />
           <folding>
+            <element signature="e#0#40#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/src/components/app/overview/overview.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="129" column="26" lean-forward="false" selection-start-line="129" selection-start-column="26" selection-end-line="129" selection-end-column="26" />
+          <folding>
+            <element signature="e#0#40#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-334">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/src/components/app/inventory/inventory.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/src/components/app/inventory/inventory.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="310">
+          <caret line="50" column="34" lean-forward="false" selection-start-line="50" selection-start-column="34" selection-end-line="50" selection-end-column="34" />
+          <folding>
             <element signature="e#0#40#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/src/utils/DB.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="36" column="2" lean-forward="true" selection-start-line="36" selection-start-column="2" selection-end-line="36" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/src/App.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="7" column="1" lean-forward="false" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
+          <folding />
         </state>
       </provider>
     </entry>
