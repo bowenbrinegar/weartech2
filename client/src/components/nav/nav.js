@@ -8,7 +8,7 @@ class Nav extends Component {
     return (
       <div id="navBar">
         <div id="pillContainer">
-          <Pill link="/home"
+          <Pill link="/"
                 name="home"
           />
           <Pill link="/app"

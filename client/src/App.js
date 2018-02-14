@@ -13,7 +13,7 @@ class Website extends Component {
           <div>
             <Switch>
               <Route exact path="/populate" component={Populate} />
-              <Route exact path="/home" component={Home} />
+              <Route exact path="/" component={Home} />
               <Route exact path="/team" component={Team} />
               <Route exact path="/app" component={App} />
               <Route exact path="/contact" component={Contact} />
