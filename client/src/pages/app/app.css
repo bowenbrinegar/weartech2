@@ -1,11 +1,4 @@
-* {
-    margin: 0;
-}
 
-input:focus,
-button:focus {
-    outline: none;
-}
 
 #applicationContainer {
     position: absolute;
@@ -81,7 +74,9 @@ button:focus {
 
 #toggleContainer {
     position: absolute;
-    height: 88%;
+    width: -webkit-calc(100% - 75px);
+    width: -moz-calc(100% - 75px);
+    height: calc(100% - 75px);
     bottom: 0;
     left: 0;
     right: 0;

@@ -7,8 +7,11 @@ export default {
   getInstitutions: function() {
     return axios.get("/api/db/institution");
   },
-  getInstitutionByID: function(name) {
-    return axios.get("/api/db/institution/" + name)
+  findAllInstitutionsByName: function(name) {
+  return axios.get("/api/db/institution/" + name)
+  },
+  getInstitutionByID: function(id) {
+    return axios.get("/api/db/institution/getbyID/" + id)
   },
   getOneCushion: function() {
     return axios.get('/api/db/cushion/one')

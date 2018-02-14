@@ -1,7 +1,4 @@
 const db = require("../models");
-const mongoose = require('mongoose')
-const Moment = require('moment')
-const json2csv = require('json2csv')
 const fs = require('fs');
 
 module.exports = {
@@ -21,13 +18,21 @@ module.exports = {
       .then(result => res.send(result))
       .catch(err => console.log(err))
   },
+  findAllInstitutionsByName: function(req, res) {
+    db.Institution
+      .find({institution: req.params.name})
+      .then(result => res.send(result))
+      .catch(err => console.log(err))
+  },
   findInstitutionByID: function(req, res) {
     db.Institution
-      .find({_id: req.params.institution})
+      .find({_id: req.params.id})
       .populate('cushion')
       .populate('shoe')
       .populate('bed')
-      .then(result => res.send(result))
+      .then(result => {
+        res.send(result)
+      })
       .catch(err => console.log(err))
   },
   getCushionByID: function(req, res) {

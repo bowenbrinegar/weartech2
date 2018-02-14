@@ -127,18 +127,18 @@ class OverView extends Component {
     if (this.props.institution !== '') {
       DB.getInstitutionByID(this.props.institution)
         .then(res => {
-          arr[0] = res.data[0].bed.length;
-          arr[1] = res.data[0].cushion.length;
-          arr[2] = res.data[0].shoe.length;
+          arr[0] = res.data[0].cushion.length;
+          arr[1] = res.data[0].shoe.length;
+          arr[2] = res.data[0].bed.length;
         });
       chart1.datasets[0].data = arr;
       setTimeout(() => {
         this.setState({chart1: chart1})
       }, 1000)
     } else {
-      DB.getShoes().then(res => arr[0] = res.data.length);
-      DB.getCushions().then(res => arr[1] = res.data.length);
-      DB.getShoes().then(res => arr[2] = res.data.length);
+      DB.getCushions().then(res => arr[0] = res.data.length);
+      DB.getShoes().then(res => arr[1] = res.data.length);
+      DB.getBeds().then(res => arr[2] = res.data.length);
       chart1.datasets[0].data = arr;
       setTimeout(() => {
         this.setState({chart1: chart1})
@@ -150,15 +150,18 @@ class OverView extends Component {
     let arr = [];
     DB.getCushionByID(this.props.institution)
       .then(res => {
-        res.data.length > 0 ? arr[0] = res.data[0].data.length : arr[0] = 0
+        let len = res.data.length;
+        len > 0 ? arr[0] = res.data[len - 1].data.length : arr[0] = 0
       });
     DB.getBedByID(this.props.institution)
       .then(res => {
-        res.data.length > 0 ? arr[1] = res.data[0].data.length : arr[1] = 0
+        let len = res.data.length;
+        len > 0 ? arr[1] = res.data[len - 1].data.length : arr[1] = 0
       });
     DB.getShoeByID(this.props.institution)
       .then(res => {
-        res.data.length > 0 ? arr[2] = res.data[0].data.length : arr[2] = 0
+        let len = res.data.length;
+        len > 0 ? arr[2] = res.data[len - 1].data.length : arr[2] = 0
       });
     chart2.datasets[0].data = arr;
     setTimeout(() => {
@@ -170,9 +173,10 @@ class OverView extends Component {
     let arr = [];
     DB.getShoeByID(this.props.institution)
       .then(res => {
-         if (res.data.length > 0) {
+        let len = res.data.length;
+         if (len > 0) {
            for (let i = 0; i < 7; i++) {
-             arr.push(res.data[0].data[i].pressure)
+             arr.push(res.data[len - 1].data[i].pressure)
            }
          }
       })
@@ -186,9 +190,10 @@ class OverView extends Component {
     let arr = [];
     DB.getCushionByID(this.props.institution)
       .then(res => {
-        if (res.data.length > 0) {
+        let len = res.data.length;
+        if (len > 0) {
           for (let i = 0; i < 7; i++) {
-            arr.push(res.data[0].data[i].connectionStrength)
+            arr.push(res.data[len - 1].data[i].connectionStrength)
           }
         }
       })
@@ -202,9 +207,10 @@ class OverView extends Component {
     let arr = [];
     DB.getBedByID(this.props.institution)
       .then(res => {
-        if (res.data.length > 0) {
+        let len = res.data.length;
+        if (len > 0) {
           for (let i = 0; i < 7; i++) {
-            arr.push(res.data[0].data[i].compressionTime)
+            arr.push(res.data[len - 1].data[i].compressionTime)
           }
         }
       })
@@ -218,9 +224,10 @@ class OverView extends Component {
     let arr = [];
     DB.getShoeByID(this.props.institution)
       .then(res => {
-        if (res.data.length > 0) {
+        let len = res.data.length;
+        if (len > 0) {
           for (let i = 0; i < 7; i++) {
-            arr.push(res.data[0].data[i].steps)
+            arr.push(res.data[len - 1].data[i].steps)
           }
         }
       })

@@ -13,3 +13,7 @@ h3 {
 .listItem:nth-child(even) {
     background: rgba(0,0,0,.2)
 }
+
+.listItem:focus{
+    background: rgba(255, 0, 0, 0.5)
+}
