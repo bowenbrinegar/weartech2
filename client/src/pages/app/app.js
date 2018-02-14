@@ -95,11 +95,13 @@ class App extends Component {
               show={this.state.showSensor}
               value="sensor"
               close={this.toggleModal.bind(this)}
+              institution={this.state.institution}
             />
             <Modal
               show={this.state.showInstitution}
               value="institution"
               close={this.toggleModal.bind(this)}
+              institution={this.state.institution}
             />
             <div id='toggleContainer'>
               <Inventory

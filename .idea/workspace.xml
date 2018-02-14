@@ -2,14 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="10235634-288f-4d5a-b471-d18e257d0a68" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/client/src/components/app/modals/modal.js" afterPath="$PROJECT_DIR$/client/src/components/app/modals/modal.js" />
-      <change beforePath="$PROJECT_DIR$/client/src/components/app/overview/overview.js" afterPath="$PROJECT_DIR$/client/src/components/app/overview/overview.js" />
       <change beforePath="$PROJECT_DIR$/client/src/pages/app/app.js" afterPath="$PROJECT_DIR$/client/src/pages/app/app.js" />
-      <change beforePath="$PROJECT_DIR$/client/src/utils/DB.js" afterPath="$PROJECT_DIR$/client/src/utils/DB.js" />
-      <change beforePath="$PROJECT_DIR$/controllers/db-controller.js" afterPath="$PROJECT_DIR$/controllers/db-controller.js" />
-      <change beforePath="$PROJECT_DIR$/routes/api/dbapi.js" afterPath="$PROJECT_DIR$/routes/api/dbapi.js" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -551,7 +546,7 @@
       <workItem from="1518282826198" duration="39000" />
       <workItem from="1518296759723" duration="212000" />
       <workItem from="1518555822591" duration="51000" />
-      <workItem from="1518560299000" duration="7779000" />
+      <workItem from="1518560299000" duration="7822000" />
     </task>
     <task id="LOCAL-00001" summary="changed height of app container">
       <created>1518561706678</created>
@@ -616,11 +611,18 @@
       <option name="project" value="LOCAL" />
       <updated>1518567052786</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="fixed err with routes">
+      <created>1518604857954</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1518604857954</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11204000" />
+    <option name="totallyTimeSpent" value="11247000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="34" y="41" width="1370" height="833" extended-state="0" />
@@ -702,7 +704,8 @@
     <MESSAGE value="weird err, moving on" />
     <MESSAGE value="inventory added" />
     <MESSAGE value="workspace" />
-    <option name="LAST_COMMIT_MESSAGE" value="workspace" />
+    <MESSAGE value="fixed err with routes" />
+    <option name="LAST_COMMIT_MESSAGE" value="fixed err with routes" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
