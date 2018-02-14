@@ -246,28 +246,6 @@ class Populate extends Component {
         <button onClick={this.findAllShoeData} id="buttonPop">
           Find all ShoeData
         </button>
-        <div>
-          <BootstrapTable data={this.state.data} striped={true} hover={true}>
-            <TableHeaderColumn dataField="_id" isKey={true} dataSort={true}>
-              Institution ID
-            </TableHeaderColumn>
-            <TableHeaderColumn dataField="institution" dataSort={true}>
-              Name
-            </TableHeaderColumn>
-            <TableHeaderColumn dataField="size" dataSort={true}>
-              Number of Employees
-            </TableHeaderColumn>
-            <TableHeaderColumn dataField="bed.length" dataSort={true}>
-              Total Bed Sensors
-            </TableHeaderColumn>
-            <TableHeaderColumn dataField="shoe.length" dataSort={true}>
-              Total Shoe Sensors
-            </TableHeaderColumn>
-            <TableHeaderColumn dataField="cushion.length" dataSort={true}>
-              Total Cushion Sensors
-            </TableHeaderColumn>
-          </BootstrapTable>
-        </div>
       </div>
     );
   }
