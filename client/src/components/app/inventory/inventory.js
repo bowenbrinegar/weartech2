@@ -34,9 +34,6 @@ class Inventory extends Component {
               <TableHeaderColumn dataField="_id" isKey={true} dataSort={true}>
                 ID
               </TableHeaderColumn>
-              <TableHeaderColumn dataField="sensor" dataSort={true}>
-                Sensor #Ref
-              </TableHeaderColumn>
               <TableHeaderColumn dataField="health" dataSort={true}>
                 Health
               </TableHeaderColumn>
